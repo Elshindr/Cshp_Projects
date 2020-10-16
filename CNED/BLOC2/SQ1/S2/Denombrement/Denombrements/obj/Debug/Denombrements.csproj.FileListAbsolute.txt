@@ -1,0 +1,14 @@
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.exe.config
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.exe
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.pdb
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.csprojAssemblyReference.cache
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.csproj.CoreCompileInputs.cache
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.exe
+C:\Users\Elshindr\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.pdb
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.exe.config
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.exe
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\bin\Debug\Denombrements.pdb
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.csprojAssemblyReference.cache
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.csproj.CoreCompileInputs.cache
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.exe
+C:\Users\MoonT\Programmation\C#\CNED\BLOC2\SQ1\S2\Denombrement_Clone\Denombrements\obj\Debug\Denombrements.pdb
