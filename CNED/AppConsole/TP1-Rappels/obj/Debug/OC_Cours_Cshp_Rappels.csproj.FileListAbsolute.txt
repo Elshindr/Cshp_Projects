@@ -1,0 +1,7 @@
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\bin\Debug\OC_Cours_Cshp_Rappels.exe.config
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\bin\Debug\OC_Cours_Cshp_Rappels.exe
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\bin\Debug\OC_Cours_Cshp_Rappels.pdb
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\obj\Debug\OC_Cours_Cshp_Rappels.csprojAssemblyReference.cache
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\obj\Debug\OC_Cours_Cshp_Rappels.csproj.CoreCompileInputs.cache
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\obj\Debug\OC_Cours_Cshp_Rappels.exe
+C:\Users\MoonT\source\repos\OC_Cours_Cshp_Rappels\obj\Debug\OC_Cours_Cshp_Rappels.pdb
