@@ -117,44 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-button-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-button-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pendu10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendu10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="playagain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\playagain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pibPendu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAshJREFUeF7t0wEBADAMw6D7N937WMADb8B5okOA6BAgOgSIDgGiQ4DoECA6BIgO
+        AaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4Do
+        ECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSI
+        DgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA
+        6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoE
+        iA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJD
+        gOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6
+        BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGi
+        Q4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAg
+        OgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4B
+        okOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQ
+        IDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgOAaJDgOgQIDoEiA4BokOA6BAgOgSIDgGiQ4DoECA6BIgO
+        AaLDedsHYfH4ZQarVUAAAAAASUVORK5CYII=
+</value>
   </data>
 </root>

@@ -1,0 +1,10 @@
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\bin\Debug\Hangman-sprint1.exe.config
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\bin\Debug\Hangman-sprint1.exe
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\bin\Debug\Hangman-sprint1.pdb
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman-sprint3.csprojAssemblyReference.cache
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman_sprint1.FrmHangman.resources
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman_sprint1.Properties.Resources.resources
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman-sprint3.csproj.GenerateResource.cache
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman-sprint3.csproj.CoreCompileInputs.cache
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman-sprint1.exe
+C:\Users\MoonT\Programmation\Git\Cshp_Projects\CNED\AppBureau\Hangman-sprint3\obj\Debug\Hangman-sprint1.pdb
