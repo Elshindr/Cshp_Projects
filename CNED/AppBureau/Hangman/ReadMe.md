@@ -17,3 +17,7 @@
 - Fin du jeu (gagné ou perdu)
 
 
+## Sprint 4 : Optimisation Graphique
+- Remplacer le combo des lettres par 26 boutons 
+- Remplacer le label par le feedback
+- Optimiser le code
