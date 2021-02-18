@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="CompareTo method" Url="html/7200d60c-a5b9-0852-7492-27a085e75ca1.htm" />
+  <HelpKINode Title="Contact class">
+    <HelpKINode Title="Contact Class" Url="html/04f4862a-d12b-0769-e045-e63a135bd943.htm" />
+    <HelpKINode Title="constructor" Url="html/47f000d7-a90e-6499-1066-4c15d05a7d9f.htm" />
+    <HelpKINode Title="fields" Url="html/c2814243-cd9a-01b2-af6c-7f5f09eed634.htm" />
+    <HelpKINode Title="methods" Url="html/27ee8083-20a5-ef6d-ec1a-83a6fb26c699.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contact.CompareTo method" Url="html/7200d60c-a5b9-0852-7492-27a085e75ca1.htm" />
+  <HelpKINode Title="Contact.Contact constructor" Url="html/47f000d7-a90e-6499-1066-4c15d05a7d9f.htm" />
+  <HelpKINode Title="Contact.getNom method" Url="html/80af72e6-ae17-1f0f-5ba4-fbc0a81e48e3.htm" />
+  <HelpKINode Title="Contact.getPhoto method" Url="html/ed4a83b0-c62d-3a09-1e5b-bbe46ffae200.htm" />
+  <HelpKINode Title="Contact.getTel method" Url="html/99cf88b7-5e2f-a845-2a78-62c8fed0f383.htm" />
+  <HelpKINode Title="Contact.nom field" Url="html/821168e3-2c82-fabb-c1b0-d9f4b7b663c3.htm" />
+  <HelpKINode Title="Contact.tel field" Url="html/e98ab46a-4a61-5e84-8ba3-a1621137b224.htm" />
+  <HelpKINode Title="Contacts namespace" Url="html/eadd2ed1-412d-0d57-b897-526b6325d272.htm" />
+  <HelpKINode Title="Contacts.Contact class" Url="html/04f4862a-d12b-0769-e045-e63a135bd943.htm" />
+  <HelpKINode Title="Contacts.frmContacts class" Url="html/a5541bde-5d85-d2b4-ff87-f06c2fb60fed.htm" />
+  <HelpKINode Title="Contacts.Particulier class" Url="html/14e932f0-3a5f-72be-64f8-75d5f74f9b44.htm" />
+  <HelpKINode Title="Contacts.Professionnel class" Url="html/d1bddb83-91d7-e8a8-a155-eb94aac44ffd.htm" />
+  <HelpKINode Title="Contacts.Serialise class" Url="html/c18dbbbc-c8f0-b3c9-b080-9eb0a6a0944e.htm" />
+  <HelpKINode Title="Dispose method" Url="html/1d17c317-0e9f-4c2e-b580-ead6c1e334d8.htm" />
+  <HelpKINode Title="frmContacts class">
+    <HelpKINode Title="frmContacts Class" Url="html/a5541bde-5d85-d2b4-ff87-f06c2fb60fed.htm" />
+    <HelpKINode Title="constructor" Url="html/f0395211-c971-0cb2-6e24-b8676861c795.htm" />
+    <HelpKINode Title="events" Url="html/0b42dcea-0177-36a4-56cf-179d140e6d3e.htm" />
+    <HelpKINode Title="methods" Url="html/2c647843-d9b1-0ce2-b6f1-e38cf7144ad6.htm" />
+    <HelpKINode Title="properties" Url="html/107db935-8846-7e4c-9e7f-da8591f117eb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="frmContacts.Dispose method" Url="html/1d17c317-0e9f-4c2e-b580-ead6c1e334d8.htm" />
+  <HelpKINode Title="frmContacts.frmContacts constructor" Url="html/f0395211-c971-0cb2-6e24-b8676861c795.htm" />
+  <HelpKINode Title="getNom method" Url="html/80af72e6-ae17-1f0f-5ba4-fbc0a81e48e3.htm" />
+  <HelpKINode Title="getPhoto method" Url="html/ed4a83b0-c62d-3a09-1e5b-bbe46ffae200.htm" />
+  <HelpKINode Title="getPrenom method" Url="html/01d58b3d-2049-7ba3-1598-fdd5eed8c68a.htm" />
+  <HelpKINode Title="getTel method" Url="html/99cf88b7-5e2f-a845-2a78-62c8fed0f383.htm" />
+  <HelpKINode Title="nom field" Url="html/821168e3-2c82-fabb-c1b0-d9f4b7b663c3.htm" />
+  <HelpKINode Title="Particulier class">
+    <HelpKINode Title="Particulier Class" Url="html/14e932f0-3a5f-72be-64f8-75d5f74f9b44.htm" />
+    <HelpKINode Title="constructor" Url="html/dd164625-d59b-26af-5404-e9a2a1efe59c.htm" />
+    <HelpKINode Title="fields" Url="html/bb642c3a-5b0b-88b7-c7da-3bf652e2d703.htm" />
+    <HelpKINode Title="methods" Url="html/bb296f13-1865-4f25-0745-c7715be66bfe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Particulier.getPrenom method" Url="html/01d58b3d-2049-7ba3-1598-fdd5eed8c68a.htm" />
+  <HelpKINode Title="Particulier.Particulier constructor" Url="html/dd164625-d59b-26af-5404-e9a2a1efe59c.htm" />
+  <HelpKINode Title="Particulier.ToString method" Url="html/34961235-25cd-ba06-92fb-f60da364b127.htm" />
+  <HelpKINode Title="Professionnel class">
+    <HelpKINode Title="Professionnel Class" Url="html/d1bddb83-91d7-e8a8-a155-eb94aac44ffd.htm" />
+    <HelpKINode Title="constructor" Url="html/e2fa2ef0-4123-9165-f704-95f6f9bd620f.htm" />
+    <HelpKINode Title="fields" Url="html/81cbd4d8-084a-049b-43a0-5e300f27f4ac.htm" />
+    <HelpKINode Title="methods" Url="html/a684adc2-1acb-165e-9d33-66188ad38ce8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Professionnel.Professionnel constructor" Url="html/e2fa2ef0-4123-9165-f704-95f6f9bd620f.htm" />
+  <HelpKINode Title="Professionnel.ToString method" Url="html/07a75f22-eb63-8063-c244-27774c0139eb.htm" />
+  <HelpKINode Title="Recup method" Url="html/8d47671d-9efd-5d47-a249-550d2ffa4950.htm" />
+  <HelpKINode Title="Sauve method" Url="html/f2e7524b-6108-6eeb-1d08-960746218326.htm" />
+  <HelpKINode Title="Serialise class">
+    <HelpKINode Title="Serialise Class" Url="html/c18dbbbc-c8f0-b3c9-b080-9eb0a6a0944e.htm" />
+    <HelpKINode Title="constructor" Url="html/d9eaea99-bbbc-e82e-a698-a055f346627b.htm" />
+    <HelpKINode Title="methods" Url="html/64d50a33-c037-dadd-9950-96db1c59d2e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Serialise.Recup method" Url="html/8d47671d-9efd-5d47-a249-550d2ffa4950.htm" />
+  <HelpKINode Title="Serialise.Sauve method" Url="html/f2e7524b-6108-6eeb-1d08-960746218326.htm" />
+  <HelpKINode Title="Serialise.Serialise constructor" Url="html/d9eaea99-bbbc-e82e-a698-a055f346627b.htm" />
+  <HelpKINode Title="tel field" Url="html/e98ab46a-4a61-5e84-8ba3-a1621137b224.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Particulier.ToString Method " Url="html/34961235-25cd-ba06-92fb-f60da364b127.htm" />
+    <HelpKINode Title="Professionnel.ToString Method " Url="html/07a75f22-eb63-8063-c244-27774c0139eb.htm" />
+  </HelpKINode>
+</HelpKI>
