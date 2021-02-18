@@ -1,0 +1,11 @@
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\AppContacts.csprojAssemblyReference.cache
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\Contacts.frmContacts.resources
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\AppContacts.csproj.GenerateResource.cache
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\AppContacts.csproj.CoreCompileInputs.cache
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\Contacts.exe
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\obj\Debug\Contacts.pdb
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\bin\Debug\Contacts.xml
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\bin\Debug\Contacts.exe
+C:\Users\MoonT\Programmation\Cshp\Exercices_Cshp\CNED\POO\AppContact\Contacts_v2\Contacts\bin\Debug\Contacts.pdb

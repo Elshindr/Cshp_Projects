@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Contacts</name>
+    </assembly>
+    <members>
+        <member name="T:Contacts.Contact">
+            <summary>
+            Classe Contact
+            mémorise les informations du contact
+            </summary>
+        </member>
+        <member name="F:Contacts.Contact.nom">
+            <summary>
+            nom du contact
+            </summary>
+        </member>
+        <member name="F:Contacts.Contact.tel">
+            <summary>
+            tel du contact
+            </summary>
+        </member>
+        <member name="F:Contacts.Contact.photo">
+            <summary>
+            photo du contact
+            </summary>
+        </member>
+        <member name="M:Contacts.Contact.#ctor(System.String,System.String,System.Drawing.Image)">
+            <summary>
+            Constructeur
+            </summary>
+            <param name="nom">nom</param>
+            <param name="tel">tel</param>
+            <param name="photo">photo</param>
+        </member>
+        <member name="M:Contacts.Contact.getNom">
+            <summary>
+            getter sur nom
+            </summary>
+            <returns>nom</returns>
+        </member>
+        <member name="M:Contacts.Contact.getTel">
+            <summary>
+            getter sur tel
+            </summary>
+            <returns>tel</returns>
+        </member>
+        <member name="M:Contacts.Contact.getPhoto">
+            <summary>
+            getter sur photo
+            </summary>
+            <returns>photo</returns>
+        </member>
+        <member name="M:Contacts.Contact.CompareTo(System.Object)">
+            <summary>
+            Comparaison des noms pour le tri
+            </summary>
+            <param name="obj">Contact à comparer</param>
+            <returns>comparaison sur le nom</returns>
+        </member>
+        <member name="T:Contacts.Particulier">
+            <summary>
+            Classe Particulier hérite de Contact
+            </summary>
+        </member>
+        <member name="M:Contacts.Particulier.#ctor(System.String,System.String,System.String,System.Drawing.Image)">
+            <summary>
+            Constructeur
+            </summary>
+            <param name="nom">nom</param>
+            <param name="prenom">prénom</param>
+            <param name="tel">téléphone</param>
+            <param name="photo">photo</param>
+        </member>
+        <member name="M:Contacts.Particulier.getPrenom">
+            <summary>
+            getter sur prenom
+            </summary>
+            <returns>prenom</returns>
+        </member>
+        <member name="M:Contacts.Particulier.ToString">
+            <summary>
+            informations sur le contact
+            </summary>
+            <returns>nom + prenom + (tel)</returns>
+        </member>
+        <member name="T:Contacts.Professionnel">
+            <summary>
+            Classe Professionnel hérite de Contact
+            </summary>
+        </member>
+        <member name="M:Contacts.Professionnel.#ctor(System.String,System.String,System.Drawing.Image)">
+            <summary>
+            Constructeur
+            </summary>
+            <param name="nom">nom</param>
+            <param name="tel">téléphone</param>
+            <param name="photo">photo</param>
+        </member>
+        <member name="M:Contacts.Professionnel.ToString">
+            <summary>
+            informations sur le contact
+            </summary>
+            <returns>nom + (tel)</returns>
+        </member>
+        <member name="T:Contacts.frmContacts">
+            <summary>
+            Classe frmContacts
+            Formulaire des contacts
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.#ctor">
+            <summary>
+            Constructeur
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.DebutAjout">
+            <summary>
+            Préparer l'ajout en gérant les objets graphiques
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.FinAjout">
+            <summary>
+            Préparer l'après ajout en gérant les objets graphiques
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.PositionDansListe(System.String)">
+            <summary>
+            se positionner sur la ligne demandée en paramètre ou la 1e ligne si la liste n'est pas vide
+            </summary>
+            <param name="ligne">ligne à sélectionner</param>
+        </member>
+        <member name="M:Contacts.frmContacts.MajListBox(System.String)">
+            <summary>
+            Mettre à jour la listbox avec tous les contacts
+            et si demandé, se positionner sur la ligne reçue en paramètre
+            </summary>
+            <param name="ligne">ligne à sélectionner</param>
+        </member>
+        <member name="M:Contacts.frmContacts.ChangeTypeContact">
+            <summary>
+            Au changement de choix du type de contact
+            afficher ou non la zone du prénom 
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.VidePhoto">
+            <summary>
+            Vider l'affichage de la photo (afficher une photo blanche)
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.AffichePhotoStandard">
+            <summary>
+            Afficher la photo standard
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.SupprContact(System.Int32)">
+            <summary>
+            Supprimer le contact donc l'index est reçu en paramètre
+            </summary>
+            <param name="index">index du contact à supprimer</param>
+        </member>
+        <member name="M:Contacts.frmContacts.BtnSuppr_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur le bouton bntSuppr
+            Supprimer le contact sélectionné
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.LstContact_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evénement sélection d'un contact dans la lstContact
+            Charger la photo
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.BtnAjouter_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement clic sur bouton btnAjouter
+            Ajouter le contact dans la liste
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.BtnModif_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement clic sur le bouton btnModif
+            Supprimer le contact et transférer ces informations dans la zone d'ajout
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.FrmContacts_Load(System.Object,System.EventArgs)">
+            <summary>
+            Evénement chargement de frmContacts
+            Préparer les composants et récupérer la sérialisation
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.BtnAnnuler_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur le bouton btnAnnuler
+            Annuler la tentative d'ajout
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.ImgPhoto_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur la photo
+            possibilité de sélectionner une photo
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.LblChoixPhoto_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur le label lblChoixPhoto
+            mêmes traitements que le clic sur la photo
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.btnNouveauContact_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur le bouton btnNouveauContact
+            Permettre d'ajouter un contact
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.rdbParticulier_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur bouton radio rdbParticulier
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.rdbProfessionnel_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evénement Click sur bouton radio rdbProfessionnel
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.lstContact_DrawItem(System.Object,System.Windows.Forms.DrawItemEventArgs)">
+            <summary>
+            liste avec des couleurs de repére selon type de contact
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.Ft_RechercheNom">
+            <summary>
+            Methode de recherche par nom
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.Ft_RecherchePrenom">
+            <summary>
+            Mrthode de recherche  par prenom.
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.Ft_RechercheTel">
+            <summary>
+            Methode de Recherche par telephone
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.txtRecNom_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Event pour recherche par nom
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">e</param>
+        </member>
+        <member name="M:Contacts.frmContacts.txtRecPrenom_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Event de recherche du prenom
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Contacts.frmContacts.txtRechTel_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Event de recherche du Telephone
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Contacts.frmContacts.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:Contacts.frmContacts.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:Contacts.frmContacts.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:Contacts.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="T:Contacts.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.ajouter">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.annuler">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.modifier">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.playagain">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.standard">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.supprimer">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Contacts.Properties.Resources.vide">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:Contacts.Serialise">
+            <summary>
+            Classe Sérialise
+            Permet de sauvegarder en binaire et récupérer des objets
+            </summary>
+        </member>
+        <member name="M:Contacts.Serialise.Sauve(System.String,System.Object)">
+            <summary>
+            Sérialisation
+            </summary>
+            <param name="fichier">nom du fichier de sauvegarde</param>
+            <param name="objet">objet à sérialiser</param>
+        </member>
+        <member name="M:Contacts.Serialise.Recup(System.String)">
+            <summary>
+            Désérialisation
+            </summary>
+            <param name="fichier">nom du fichier de sauvegarde</param>
+            <returns>objet désérialisé</returns>
+        </member>
+    </members>
+</doc>
