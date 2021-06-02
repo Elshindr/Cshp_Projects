@@ -48,7 +48,6 @@ namespace ProjetCned.connexion
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                //Application.Exit();
             }
         }
 
@@ -79,13 +78,17 @@ namespace ProjetCned.connexion
             try
             {
                 commande = new MySqlCommand(req, connexion);
-                foreach(KeyValuePair<string, object> param in parametres){
-                    commande.Parameters.Add(new MySqlParameter(param.Key, param.Value));
+                if (!(parametres is null))
+                {
+                    foreach (KeyValuePair<string, object> param in parametres)
+                    {
+                        commande.Parameters.Add(new MySqlParameter(param.Key, param.Value));
+                    }
                 }
                 commande.Prepare();
                 commande.ExecuteNonQuery();
             }
-            catch( Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -96,11 +99,21 @@ namespace ProjetCned.connexion
         /// Exécuter une requête sql de type "select" puis valoriser le curseur
         /// </summary>
         /// <param name="req">requête sql</param>
-        public void ReqSelect(string req)
+        /// <param name="parametres">dictionnaire des requetes préparés</param>
+        public void ReqSelect(string req, Dictionary<string, object> parametres)
         {
             try
             {
                 commande = new MySqlCommand(req, connexion);
+                if(!(parametres is null))
+                {
+                    foreach (KeyValuePair<string, object> param in parametres)
+                    {
+                        commande.Parameters.Add(new MySqlParameter(param.Key, param.Value));
+                    }
+                }
+                
+                commande.Prepare();
                 curseur = commande.ExecuteReader();
             }
             catch (Exception e)
@@ -146,7 +159,7 @@ namespace ProjetCned.connexion
             {
                 return curseur[champ];
             }
-            catch (Exception e)
+            catch
             {
                 return null;
             }

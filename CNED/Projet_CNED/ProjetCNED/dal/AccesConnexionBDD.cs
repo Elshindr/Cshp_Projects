@@ -16,7 +16,40 @@ namespace ProjetCned.dal
         /// <summary>
         /// Chaine de connexion à la base de donnée
         /// </summary>
-        private static string chaineConnexion = "server=localhost;user id=logresponsable;password=2*6le_pwd;database=projetcned;SslMode=none";
+        private static string chaineConnexion = "server=localhost;user id=logresponsable;password=pwd;database=projetcned;SslMode=none";
+        
+
+        /// <summary>
+        /// Verifie si les clés de connexion sont valides
+        /// </summary>
+        /// <param name="log">login</param>
+        /// <param name="pwd">mot de passe</param>
+        /// <returns>vrai si clés sont valides</returns>
+        public static Boolean Authentification(string log, string pwd)
+        {
+            string req = "select * from responsable r ";
+            req += "where r.login = @login and r.pwd = SHA2(@pwd, 256);";
+
+            Dictionary<string, object> param = new Dictionary<string, object>();
+            param.Add("@login", log);
+            param.Add("@pwd", pwd);
+
+            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            curs.ReqSelect(req, param);
+            
+            if (curs.Read())
+            {
+               
+                
+                curs.Close();
+                return true;
+            }
+            else
+            {
+                curs.Close();
+                return false;
+            }
+        }
 
         /// <summary>
         ///  Récupèrer la liste du personnel provenant de la Base de données
@@ -24,17 +57,19 @@ namespace ProjetCned.dal
         /// <returns>La liste du personnel</returns>
         public static List<Personnel> GetLePersonnel()
         {
-            string req = "select p.idpersonnel as idpersonnel, p.nom as nom, p.prenom as prenom, p.tel as tel, p.mail as mail, p.service as service";
-            req += "from personnel;";
-
+         
+            string req = "select p.idpersonnel as idpersonnel, p.nom as nom, p.prenom as prenom, p.tel as tel, p.mail as mail, p.idservice as idservice, s.nom as service ";
+            req += " from personnel p join service s on (p.idservice = s.idservice)";
+            // req += "order by p.nom, p.prenom;";
+            req += " order by p.idpersonnel DESC;";
             List<Personnel> lePersonnels = new List<Personnel>();
 
             ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
-            curs.ReqSelect(req);
+            curs.ReqSelect(req, null);
 
             while (curs.Read())
             {
-                Personnel unpersonnel= new Personnel((int)curs.Field("idpersonnel"), (string)curs.Field("nom"), (string)curs.Field("tel"), (string)curs.Field("prenom"), (string)curs.Field("mail"),(int)curs.Field("idservice") ,(string)curs.Field("service"));
+                Personnel unpersonnel= new Personnel((int)curs.Field("idpersonnel"), (string)curs.Field("nom"), (string)curs.Field("prenom"), (string)curs.Field("tel"), (string)curs.Field("mail"),(int)curs.Field("idservice") ,(string)curs.Field("service"));
                 lePersonnels.Add(unpersonnel);
             }
             curs.Close();
@@ -43,26 +78,53 @@ namespace ProjetCned.dal
         }
 
         /// <summary>
+        /// Demander la liste des services
+        /// </summary>
+        /// <returns></returns>
+        public static List<Service> GetService()
+        {
+            string req = "select idservice as idservice, nom as nom from service order by nom;";
+
+            List<Service> lesservices = new List<Service>();
+
+            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            curs.ReqSelect(req, null);
+
+            while (curs.Read())
+            {
+                Service unservice = new Service((int)curs.Field("idservice"), (string)curs.Field("nom"));
+                lesservices.Add(unservice);
+            }
+            curs.Close();
+
+            return lesservices;
+        }
+
+
+        /// <summary>
         /// Afficher la liste des absences d'un personnel sélectionné, dans l'ordre
         /// inverse de la chronologie(la plus récente en premier).
         /// </summary>
         /// <returns></returns>
-        public static List<Absence> GetLesAbsences()
+        public static List<Absence> GetLesAbsences(Personnel unpersonnel)
         {
-            string req = "select a.datedebut as debut, a.datefin as fin, a.motif as motif ";
-            req += " from absence a join personnel p on (a.idpersonnel = p.idpersonnel)";
-            req += "where a.idpersonnel = @idpersonnel";
-            req += "order by a.datedebut ASC, a.datefin ASC;";
+            string req = "select idpersonnel as idpersonnel, datedebut as datedebut, datefin as datefin, a.idmotif as idmotif , m.libelle as motif";
+             req += " from absence a join motif m on (a.idmotif = m.idmotif)";
+             req += " where idpersonnel = @idpersonnel";
+             req += " order by datedebut, datefin;";
 
             List<Absence> lesAbsences = new List<Absence>();
 
             ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
-            curs.ReqSelect(req);
+
+           Dictionary<string, object> param = new Dictionary<string, object>();
+            param.Add("@idpersonnel", unpersonnel.Idpersonnel);
+            curs.ReqSelect(req, param);
 
             while (curs.Read())
             {
                 
-                Absence uneabs = new Absence((int)curs.Field("idpersonne"), (DateTime)curs.Field("datedebut"), (DateTime)curs.Field("datefin"), (string)curs.Field("motif"), (int)curs.Field("idmotif"));
+                Absence uneabs = new Absence((int)curs.Field("idpersonnel"), (DateTime)curs.Field("datedebut"), (DateTime)curs.Field("datefin"), (string)curs.Field("motif"), (int)curs.Field("idmotif"));
                 lesAbsences.Add(uneabs);
             }
 
@@ -78,15 +140,16 @@ namespace ProjetCned.dal
         /// <param name="unpersonnel">un personnel</param>
         public static void AddPersonnel(Personnel unpersonnel)
         {
-            string req = "insert into personnel(nom, prenom, tel, mail, idservice)";
-            req += "values(@nom, @prenom, @tel, @mail, @idservice);";
+            string req = "insert into personnel(idpersonnel, nom, prenom, tel, mail, idservice)";
+            req += " values(@idpersonnel, @nom, @prenom, @tel, @mail, @idservice);";
 
             Dictionary<string, object> param = new Dictionary<string, object>();
+            param.Add("@idpersonnel", unpersonnel.Idpersonnel);
             param.Add("@nom", unpersonnel.Nom);
             param.Add("@prenom", unpersonnel.Prenom);
             param.Add("@tel", unpersonnel.Tel);
             param.Add("@mail", unpersonnel.Mail);
-            param.Add("idservice", unpersonnel.Idservice);
+            param.Add("@idservice", unpersonnel.Idservice);
 
             ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
@@ -100,7 +163,7 @@ namespace ProjetCned.dal
         public static void AddAbsence(Absence uneabs)
         {
             string req = "insert into absence(datedebut, datefin, motif, idpersonnel)";
-            req += "values(@datedebut, @datefin, @motif, @idpersonnel;";
+            req += " values(@datedebut, @datefin, @motif, @idpersonnel;";
 
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@datedebut", uneabs.Datedebut);
@@ -153,8 +216,10 @@ namespace ProjetCned.dal
         /// <param name="unpersonnel"> un personnel</param>
         public static void ModPersonnel(Personnel unpersonnel)
         {
-            string req = "update personnel set nom = @nom, prenom = @prenom, tel = @tel, mail = @mail, idservice = @idservice";
-            req += "where idpersonnel = @idpersonnel;";
+            
+
+            string req = "update personnel set nom = @nom, prenom = @prenom, tel = @tel, mail = @mail, idservice = @idservice ";
+            req += " where idpersonnel = @idpersonnel;";
 
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@idpersonnel", unpersonnel.Idpersonnel);
@@ -176,7 +241,7 @@ namespace ProjetCned.dal
         public static void ModAbs(Absence uneabs)
         {
             string req = "update absence set datefin = @datefin, datedebut = @datedebut, idmotif= @idmotif, idpersonnel = @idpersonnel";
-            req += "where idpersonnel = @idpersonnel and datefin=@datefin and datedebut = @datedebut;";
+            req += " where idpersonnel = @idpersonnel and datefin=@datefin and datedebut = @datedebut;";
 
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@idpersonnel", uneabs.Idpersonnel);
@@ -189,23 +254,29 @@ namespace ProjetCned.dal
 
         }
 
-
         /// <summary>
-        /// Transformation d'une chaîne avec SHA256 (pour le pwd)
+        /// Obtenir la liste des motifs d'absence
         /// </summary>
-        /// <param name="text"></param>
         /// <returns></returns>
-        internal static string GetStringSha256Hash(string text)
+        public static List<Motif> GetMotif()
         {
-            if (string.IsNullOrEmpty(text))
-                return string.Empty;
+            string req = "select idmotif, libelle from motif order by libelle;";
 
-            using (var sha = new System.Security.Cryptography.SHA256Managed())
+            List<Motif> lesMotifs = new List<Motif>();
+
+            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            curs.ReqSelect(req, null);
+
+            while (curs.Read())
             {
-                byte[] textData = System.Text.Encoding.UTF8.GetBytes(text);
-                byte[] hash = sha.ComputeHash(textData);
-                return BitConverter.ToString(hash).Replace("-", string.Empty);
+                Motif unmotif = new Motif((int)curs.Field("idmotif"), (string)curs.Field("libelle"));
+                lesMotifs.Add(unmotif);
             }
+            curs.Close();
+
+            return lesMotifs;
         }
+
+        
     }
 }

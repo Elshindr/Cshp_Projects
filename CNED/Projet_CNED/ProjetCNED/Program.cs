@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetCned.controleur;
 
 namespace ProjetCned
 {
@@ -16,7 +17,7 @@ namespace ProjetCned
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmConnexion());
+            new Controle();
         }
     }
 }

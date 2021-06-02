@@ -44,6 +44,7 @@ namespace ProjetCned
             this.btnconnexion.TabIndex = 0;
             this.btnconnexion.Text = "Se connecter";
             this.btnconnexion.UseVisualStyleBackColor = true;
+            this.btnconnexion.Click += new System.EventHandler(this.btnconnexion_Click);
             // 
             // lbllogin
             // 

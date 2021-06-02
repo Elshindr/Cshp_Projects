@@ -56,10 +56,13 @@
   <HelpKINode Title="AccesConnexionBDD.AccesConnexionBDD constructor" Url="html/ffd40ded-9205-bc55-98f8-d2521c6b1ad1.htm" />
   <HelpKINode Title="AccesConnexionBDD.AddAbsence method" Url="html/b4cc9b53-469c-2f8c-8947-8491c6574488.htm" />
   <HelpKINode Title="AccesConnexionBDD.AddPersonnel method" Url="html/3584f01c-29a2-0dfa-e7af-2807423295df.htm" />
+  <HelpKINode Title="AccesConnexionBDD.Authentification method" Url="html/84ef91e0-4a79-06bd-f3a4-c615596acdbb.htm" />
   <HelpKINode Title="AccesConnexionBDD.DelAbs method" Url="html/358d5cc7-366b-7ca2-fe65-0199f6d1d1ba.htm" />
   <HelpKINode Title="AccesConnexionBDD.DelPersonnel method" Url="html/68998b38-b001-ec5e-6f42-217785cd405c.htm" />
   <HelpKINode Title="AccesConnexionBDD.GetLePersonnel method" Url="html/c3c10095-2f93-ed73-19ea-3ecd585ae07a.htm" />
-  <HelpKINode Title="AccesConnexionBDD.GetLesAbsences method" Url="html/b02c0da7-d4e6-0a74-f142-1bfcea78f1fd.htm" />
+  <HelpKINode Title="AccesConnexionBDD.GetLesAbsences method" Url="html/3a15b31b-3550-61b8-6098-56a0092891bc.htm" />
+  <HelpKINode Title="AccesConnexionBDD.GetMotif method" Url="html/40a9d3c7-3774-8008-a673-982497d631a4.htm" />
+  <HelpKINode Title="AccesConnexionBDD.GetService method" Url="html/3cde24bc-b6ef-76f4-5be2-aa758e1ef686.htm" />
   <HelpKINode Title="AccesConnexionBDD.ModAbs method" Url="html/d620be40-7b19-03e0-e6b9-63e12aa0871d.htm" />
   <HelpKINode Title="AccesConnexionBDD.ModPersonnel method" Url="html/b6519127-acce-c17a-6989-aa4513ca3ea9.htm" />
   <HelpKINode Title="Action property">
@@ -76,13 +79,27 @@
     <HelpKINode Title="responsableTableAdapter.Adapter Property " Url="html/ddf9615f-dece-1865-5435-0ffa829b0596.htm" />
     <HelpKINode Title="serviceTableAdapter.Adapter Property " Url="html/61ce5aa8-cbe4-7101-4dc8-1c20778b66f8.htm" />
   </HelpKINode>
-  <HelpKINode Title="AddAbsence method" Url="html/b4cc9b53-469c-2f8c-8947-8491c6574488.htm" />
+  <HelpKINode Title="AddAbsence method">
+    <HelpKINode Title="AccesConnexionBDD.AddAbsence Method " Url="html/b4cc9b53-469c-2f8c-8947-8491c6574488.htm" />
+    <HelpKINode Title="Controle.AddAbsence Method " Url="html/208ed0f1-c233-d400-9660-b826655fd2c3.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddabsenceRow method" Url="html/2b9bf765-9f17-92e7-e309-095f7910dc95.htm" />
   <HelpKINode Title="AddmotifRow method" Url="html/077e162c-7613-75ab-4f2b-d386bc38d071.htm" />
-  <HelpKINode Title="AddPersonnel method" Url="html/3584f01c-29a2-0dfa-e7af-2807423295df.htm" />
+  <HelpKINode Title="AddPersonnel method">
+    <HelpKINode Title="AccesConnexionBDD.AddPersonnel Method " Url="html/3584f01c-29a2-0dfa-e7af-2807423295df.htm" />
+    <HelpKINode Title="Controle.AddPersonnel Method " Url="html/a4047f96-84ab-02c3-de58-bd7901763618.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddpersonnelRow method" Url="html/d83b27dd-a83d-af0f-7911-9283e8618908.htm" />
   <HelpKINode Title="AddresponsableRow method" Url="html/7507b54b-65ac-13e9-c06a-5cc270f7bf44.htm" />
   <HelpKINode Title="AddserviceRow method" Url="html/2efcfb29-808d-bb28-30ec-7f2abb1f7469.htm" />
+  <HelpKINode Title="AfficherAbs method" Url="html/1cac3ce8-8581-3bdf-69a8-7c68058bf607.htm" />
+  <HelpKINode Title="AfficherListePersonnel method" Url="html/0156947c-dd9f-eba0-d108-d2369c12d030.htm" />
+  <HelpKINode Title="AfficherMotif method" Url="html/b5ca875d-b1dd-7177-31d6-174e61f1f39e.htm" />
+  <HelpKINode Title="AfficherService method" Url="html/6063d185-394f-1c2d-da7c-1272557a9633.htm" />
+  <HelpKINode Title="Authentification method">
+    <HelpKINode Title="AccesConnexionBDD.Authentification Method " Url="html/84ef91e0-4a79-06bd-f3a4-c615596acdbb.htm" />
+    <HelpKINode Title="Controle.Authentification Method " Url="html/372d2a50-a52a-5e7c-2d49-782eb0f8d42b.htm" />
+  </HelpKINode>
   <HelpKINode Title="BackupDataSetBeforeUpdate property" Url="html/45a90107-9855-f6c6-b325-ece249bf079f.htm" />
   <HelpKINode Title="ClearBeforeFill property">
     <HelpKINode Title="absenceTableAdapter.ClearBeforeFill Property " Url="html/6898af58-fe07-f54f-b2c7-52b11de14f70.htm" />
@@ -116,8 +133,25 @@
   <HelpKINode Title="ConnexionBDD.Field method" Url="html/5b478773-6d82-9dfc-73f9-0d90c6ae80b9.htm" />
   <HelpKINode Title="ConnexionBDD.GetInstance method" Url="html/6ed4a26c-6ebd-cb6b-7c22-e3ee80ba2c34.htm" />
   <HelpKINode Title="ConnexionBDD.Read method" Url="html/18cde0c7-7127-0bba-1c71-353a7969011f.htm" />
-  <HelpKINode Title="ConnexionBDD.ReqSelect method" Url="html/cc1d5c8e-02e0-fc1e-522a-ded3a418cd6e.htm" />
+  <HelpKINode Title="ConnexionBDD.ReqSelect method" Url="html/962340f5-f205-64b4-8faa-a6f9de7ba60f.htm" />
   <HelpKINode Title="ConnexionBDD.ReqUpdate method" Url="html/1ee87842-6d46-bf99-4482-0f2943c827c1.htm" />
+  <HelpKINode Title="Controle class">
+    <HelpKINode Title="Controle Class" Url="html/a7c25950-1c5b-7a3f-6ea7-70c32dca882b.htm" />
+    <HelpKINode Title="constructor" Url="html/c5c1ed25-72c4-2074-35f9-471f827ceb7a.htm" />
+    <HelpKINode Title="methods" Url="html/aea76046-2d74-b830-54c2-05dd7e986a1f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Controle.AddAbsence method" Url="html/208ed0f1-c233-d400-9660-b826655fd2c3.htm" />
+  <HelpKINode Title="Controle.AddPersonnel method" Url="html/a4047f96-84ab-02c3-de58-bd7901763618.htm" />
+  <HelpKINode Title="Controle.Authentification method" Url="html/372d2a50-a52a-5e7c-2d49-782eb0f8d42b.htm" />
+  <HelpKINode Title="Controle.Controle constructor" Url="html/c5c1ed25-72c4-2074-35f9-471f827ceb7a.htm" />
+  <HelpKINode Title="Controle.DelAbs method" Url="html/f4ca8a41-f8fd-14e9-debf-f1865dd8e3b3.htm" />
+  <HelpKINode Title="Controle.DelPersonnel method" Url="html/b834f7dd-ea35-3cbf-8fb0-bc334843bc24.htm" />
+  <HelpKINode Title="Controle.GetAbsences method" Url="html/116ac45f-deb1-21c6-1d9d-5eb78ce8b5bf.htm" />
+  <HelpKINode Title="Controle.GetMotifs method" Url="html/36dbf755-3f79-1fa0-7ec1-9b601963f80a.htm" />
+  <HelpKINode Title="Controle.GetPersonnels method" Url="html/9437b1f3-d75a-eae5-0547-70d3cb56302b.htm" />
+  <HelpKINode Title="Controle.GetService method" Url="html/33cb0f69-2af7-05c4-82ff-250385555114.htm" />
+  <HelpKINode Title="Controle.ModAbs method" Url="html/f77cadbe-5971-3c55-7560-0e57f7d8073c.htm" />
+  <HelpKINode Title="Controle.ModPersonnel method" Url="html/59ad33a9-9faa-1255-f42b-c432fbe69b4b.htm" />
   <HelpKINode Title="Count property">
     <HelpKINode Title="projetcnedDataSet.absenceDataTable.Count Property " Url="html/02586f6d-18a4-4c40-250c-6f9b062ec3dc.htm" />
     <HelpKINode Title="projetcnedDataSet.motifDataTable.Count Property " Url="html/250cca0f-f103-7d97-e273-c549cb6183f6.htm" />
@@ -132,20 +166,26 @@
     <HelpKINode Title="projetcnedDataSet.responsableDataTable.CreateInstance Method " Url="html/d96c66bc-d89b-10d0-1666-c76a1b123a1e.htm" />
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.CreateInstance Method " Url="html/3485b7fc-027c-3e73-2547-3f29342df9a1.htm" />
   </HelpKINode>
-  <HelpKINode Title="DATEDEBUT property" Url="html/6e42a06c-040b-bbea-799a-f20b10301349.htm" />
   <HelpKINode Title="Datedebut property" Url="html/3f0b9270-6bab-25ed-0e51-9b05e804097e.htm" />
+  <HelpKINode Title="DATEDEBUT property" Url="html/6e42a06c-040b-bbea-799a-f20b10301349.htm" />
   <HelpKINode Title="DATEDEBUTColumn property" Url="html/92c8a3ec-0ba2-3b79-96db-56a6c8268d13.htm" />
   <HelpKINode Title="DATEFIN property" Url="html/7b1f2a5e-e724-5597-d0d7-be1a15096b9a.htm" />
   <HelpKINode Title="Datefin property" Url="html/c278d265-3d0a-1ebb-0d3e-b7c875ab4138.htm" />
   <HelpKINode Title="DATEFINColumn property" Url="html/9119fefe-26f4-1661-12b3-8e6311d6ee5c.htm" />
-  <HelpKINode Title="DelAbs method" Url="html/358d5cc7-366b-7ca2-fe65-0199f6d1d1ba.htm" />
+  <HelpKINode Title="DelAbs method">
+    <HelpKINode Title="AccesConnexionBDD.DelAbs Method " Url="html/358d5cc7-366b-7ca2-fe65-0199f6d1d1ba.htm" />
+    <HelpKINode Title="Controle.DelAbs Method " Url="html/f4ca8a41-f8fd-14e9-debf-f1865dd8e3b3.htm" />
+  </HelpKINode>
   <HelpKINode Title="Delete method">
     <HelpKINode Title="absenceTableAdapter.Delete Method " Url="html/e0d65e59-39f3-d7db-2f03-b0d5874d340e.htm" />
     <HelpKINode Title="motifTableAdapter.Delete Method " Url="html/92004f0e-6522-b2d2-9475-a853a11ca91f.htm" />
     <HelpKINode Title="personnelTableAdapter.Delete Method " Url="html/55a826b4-934c-e75e-9170-92c81db1faac.htm" />
     <HelpKINode Title="serviceTableAdapter.Delete Method " Url="html/2e9efbee-55eb-cb37-5ebe-8bc1578b60da.htm" />
   </HelpKINode>
-  <HelpKINode Title="DelPersonnel method" Url="html/68998b38-b001-ec5e-6f42-217785cd405c.htm" />
+  <HelpKINode Title="DelPersonnel method">
+    <HelpKINode Title="AccesConnexionBDD.DelPersonnel Method " Url="html/68998b38-b001-ec5e-6f42-217785cd405c.htm" />
+    <HelpKINode Title="Controle.DelPersonnel Method " Url="html/b834f7dd-ea35-3cbf-8fb0-bc334843bc24.htm" />
+  </HelpKINode>
   <HelpKINode Title="Dispose method">
     <HelpKINode Title="FrmConnexion.Dispose Method " Url="html/e131b2c8-0434-326d-ea99-dc732657f64b.htm" />
     <HelpKINode Title="FrmGestion.Dispose Method " Url="html/ade389fa-6017-71b5-1997-4538d543896e.htm" />
@@ -164,22 +204,28 @@
   <HelpKINode Title="FindByIDSERVICE method" Url="html/d8e016e0-c5eb-98f2-5dfb-86cce04f13c0.htm" />
   <HelpKINode Title="FrmConnexion class">
     <HelpKINode Title="FrmConnexion Class" Url="html/2f045d4f-f5a4-3840-9d2c-226b1085f5db.htm" />
-    <HelpKINode Title="constructor" Url="html/35d29726-78b0-4f51-d59a-97bbfa8c27fe.htm" />
+    <HelpKINode Title="constructor" Url="html/a624189a-bb47-021c-5f0e-42eecc71d654.htm" />
     <HelpKINode Title="events" Url="html/174ee4df-72bb-7ca7-b319-b6f5c7d00d0e.htm" />
     <HelpKINode Title="methods" Url="html/01d1c613-98e1-c257-d1fb-b3c5f21ed5f3.htm" />
     <HelpKINode Title="properties" Url="html/2d9f3a55-47ea-7dc8-9058-f1d6c6f026e2.htm" />
   </HelpKINode>
   <HelpKINode Title="FrmConnexion.Dispose method" Url="html/e131b2c8-0434-326d-ea99-dc732657f64b.htm" />
-  <HelpKINode Title="FrmConnexion.FrmConnexion constructor" Url="html/35d29726-78b0-4f51-d59a-97bbfa8c27fe.htm" />
+  <HelpKINode Title="FrmConnexion.FrmConnexion constructor" Url="html/a624189a-bb47-021c-5f0e-42eecc71d654.htm" />
   <HelpKINode Title="FrmGestion class">
     <HelpKINode Title="FrmGestion Class" Url="html/8e8e019d-2b47-ac85-3cf4-76ea6e85a9ba.htm" />
-    <HelpKINode Title="constructor" Url="html/6731f449-4279-477d-3a34-11fc8699dbdf.htm" />
+    <HelpKINode Title="constructor" Url="html/7a6d25e7-a00d-ad32-7651-7c2a0c9a1a66.htm" />
     <HelpKINode Title="events" Url="html/1f3a634d-d384-9cc6-0547-ec4aadbedf0a.htm" />
     <HelpKINode Title="methods" Url="html/2a58431b-f5f1-8bf7-43df-72582165cb7d.htm" />
     <HelpKINode Title="properties" Url="html/0bdc7d60-3dc1-54e3-ede3-a2a3ac8f0ffd.htm" />
   </HelpKINode>
+  <HelpKINode Title="FrmGestion.AfficherAbs method" Url="html/1cac3ce8-8581-3bdf-69a8-7c68058bf607.htm" />
+  <HelpKINode Title="FrmGestion.AfficherListePersonnel method" Url="html/0156947c-dd9f-eba0-d108-d2369c12d030.htm" />
+  <HelpKINode Title="FrmGestion.AfficherMotif method" Url="html/b5ca875d-b1dd-7177-31d6-174e61f1f39e.htm" />
+  <HelpKINode Title="FrmGestion.AfficherService method" Url="html/6063d185-394f-1c2d-da7c-1272557a9633.htm" />
   <HelpKINode Title="FrmGestion.Dispose method" Url="html/ade389fa-6017-71b5-1997-4538d543896e.htm" />
-  <HelpKINode Title="FrmGestion.FrmGestion constructor" Url="html/6731f449-4279-477d-3a34-11fc8699dbdf.htm" />
+  <HelpKINode Title="FrmGestion.FrmGestion constructor" Url="html/7a6d25e7-a00d-ad32-7651-7c2a0c9a1a66.htm" />
+  <HelpKINode Title="FrmGestion.Init method" Url="html/ae984adb-085e-ffd3-f019-7b0c9194a32e.htm" />
+  <HelpKINode Title="GetAbsences method" Url="html/116ac45f-deb1-21c6-1d9d-5eb78ce8b5bf.htm" />
   <HelpKINode Title="GetData method">
     <HelpKINode Title="absenceTableAdapter.GetData Method " Url="html/0f34582a-a6ac-2caa-e165-79cb40ebc65e.htm" />
     <HelpKINode Title="motifTableAdapter.GetData Method " Url="html/64b43f21-ba54-c49d-9dd5-eceb690cfd2b.htm" />
@@ -189,7 +235,10 @@
   </HelpKINode>
   <HelpKINode Title="GetInstance method" Url="html/6ed4a26c-6ebd-cb6b-7c22-e3ee80ba2c34.htm" />
   <HelpKINode Title="GetLePersonnel method" Url="html/c3c10095-2f93-ed73-19ea-3ecd585ae07a.htm" />
-  <HelpKINode Title="GetLesAbsences method" Url="html/b02c0da7-d4e6-0a74-f142-1bfcea78f1fd.htm" />
+  <HelpKINode Title="GetLesAbsences method" Url="html/3a15b31b-3550-61b8-6098-56a0092891bc.htm" />
+  <HelpKINode Title="GetMotif method" Url="html/40a9d3c7-3774-8008-a673-982497d631a4.htm" />
+  <HelpKINode Title="GetMotifs method" Url="html/36dbf755-3f79-1fa0-7ec1-9b601963f80a.htm" />
+  <HelpKINode Title="GetPersonnels method" Url="html/9437b1f3-d75a-eae5-0547-70d3cb56302b.htm" />
   <HelpKINode Title="GetRowType method">
     <HelpKINode Title="projetcnedDataSet.absenceDataTable.GetRowType Method " Url="html/32b7fe1b-fcbb-3d9f-ec93-8444de66ab91.htm" />
     <HelpKINode Title="projetcnedDataSet.motifDataTable.GetRowType Method " Url="html/7d2867f8-cc9a-2581-7398-54f610d97ca0.htm" />
@@ -198,6 +247,10 @@
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.GetRowType Method " Url="html/300347ed-4479-470d-2485-da47cf4c0077.htm" />
   </HelpKINode>
   <HelpKINode Title="GetSchemaSerializable method" Url="html/713cc90a-6918-1997-c616-a1cf8c103bd9.htm" />
+  <HelpKINode Title="GetService method">
+    <HelpKINode Title="AccesConnexionBDD.GetService Method " Url="html/3cde24bc-b6ef-76f4-5be2-aa758e1ef686.htm" />
+    <HelpKINode Title="Controle.GetService Method " Url="html/33cb0f69-2af7-05c4-82ff-250385555114.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetTypedDataSetSchema method" Url="html/64d4d174-e99e-2e58-5116-cfd992900984.htm" />
   <HelpKINode Title="GetTypedTableSchema method">
     <HelpKINode Title="projetcnedDataSet.absenceDataTable.GetTypedTableSchema Method " Url="html/958a6ce3-1cb1-654e-b4f8-8c6174f78906.htm" />
@@ -207,35 +260,42 @@
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.GetTypedTableSchema Method " Url="html/4f19136c-a7b3-1271-7131-f475ed6bcb22.htm" />
   </HelpKINode>
   <HelpKINode Title="IDMOTIF property">
-    <HelpKINode Title="projetcnedDataSet.absenceRow.IDMOTIF Property " Url="html/db76e67f-7094-06e4-9aff-7f326dedeba9.htm" />
     <HelpKINode Title="projetcnedDataSet.motifRow.IDMOTIF Property " Url="html/da51de63-1ac5-bdfc-03d3-d47e7f15a4cd.htm" />
+    <HelpKINode Title="projetcnedDataSet.absenceRow.IDMOTIF Property " Url="html/db76e67f-7094-06e4-9aff-7f326dedeba9.htm" />
   </HelpKINode>
-  <HelpKINode Title="Idmotif property" Url="html/97399d88-06e7-c773-aea7-f65dbf41acaf.htm" />
+  <HelpKINode Title="Idmotif property">
+    <HelpKINode Title="Motif.Idmotif Property " Url="html/b25e8cf3-d937-9dd2-0c85-b418f05fd55d.htm" />
+    <HelpKINode Title="Absence.Idmotif Property " Url="html/97399d88-06e7-c773-aea7-f65dbf41acaf.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDMOTIFColumn property">
     <HelpKINode Title="projetcnedDataSet.absenceDataTable.IDMOTIFColumn Property " Url="html/7a6346fe-744c-3311-8546-d4389c1826e9.htm" />
     <HelpKINode Title="projetcnedDataSet.motifDataTable.IDMOTIFColumn Property " Url="html/7bb24ec7-b81f-7e1d-3774-ffc83a4827ca.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Idpersonnel property">
-    <HelpKINode Title="Absence.Idpersonnel Property " Url="html/bac0eb29-ac45-1954-c257-b785388db0c5.htm" />
-    <HelpKINode Title="Personnel.Idpersonnel Property " Url="html/9c888151-afd8-fc42-e54e-d0cb715b45cc.htm" />
   </HelpKINode>
   <HelpKINode Title="IDPERSONNEL property">
     <HelpKINode Title="projetcnedDataSet.absenceRow.IDPERSONNEL Property " Url="html/a85120ee-3346-4b73-dbf3-9c72e735c29d.htm" />
     <HelpKINode Title="projetcnedDataSet.personnelRow.IDPERSONNEL Property " Url="html/1ffbfeef-a004-3132-334a-3816d444602a.htm" />
   </HelpKINode>
+  <HelpKINode Title="Idpersonnel property">
+    <HelpKINode Title="Absence.Idpersonnel Property " Url="html/bac0eb29-ac45-1954-c257-b785388db0c5.htm" />
+    <HelpKINode Title="Personnel.Idpersonnel Property " Url="html/9c888151-afd8-fc42-e54e-d0cb715b45cc.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDPERSONNELColumn property">
     <HelpKINode Title="projetcnedDataSet.absenceDataTable.IDPERSONNELColumn Property " Url="html/51114138-2f6c-d982-e253-ee454f7cf8fc.htm" />
     <HelpKINode Title="projetcnedDataSet.personnelDataTable.IDPERSONNELColumn Property " Url="html/33f3a4b7-f25a-8ba8-e066-922ed4b08524.htm" />
   </HelpKINode>
-  <HelpKINode Title="Idservice property" Url="html/34183515-9407-22d4-cf57-cc82a0cf934b.htm" />
   <HelpKINode Title="IDSERVICE property">
     <HelpKINode Title="projetcnedDataSet.personnelRow.IDSERVICE Property " Url="html/755626d0-1922-c241-82c6-db77c85ddf56.htm" />
     <HelpKINode Title="projetcnedDataSet.serviceRow.IDSERVICE Property " Url="html/0c5825ab-a4c8-4fea-03e2-3b27d2f3a921.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Idservice property">
+    <HelpKINode Title="Personnel.Idservice Property " Url="html/34183515-9407-22d4-cf57-cc82a0cf934b.htm" />
+    <HelpKINode Title="Service.Idservice Property " Url="html/8380e7eb-c9a6-38fb-f34f-4cc5b3623a39.htm" />
   </HelpKINode>
   <HelpKINode Title="IDSERVICEColumn property">
     <HelpKINode Title="projetcnedDataSet.personnelDataTable.IDSERVICEColumn Property " Url="html/ae808cb2-2fd5-66e8-307a-002f96682a67.htm" />
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.IDSERVICEColumn Property " Url="html/4523b3f7-90e7-49ee-4b5b-334bebbedfdb.htm" />
   </HelpKINode>
+  <HelpKINode Title="Init method" Url="html/ae984adb-085e-ffd3-f019-7b0c9194a32e.htm" />
   <HelpKINode Title="InitializeDerivedDataSet method" Url="html/27508d07-1102-15c6-6257-060dd8542df0.htm" />
   <HelpKINode Title="Insert method">
     <HelpKINode Title="absenceTableAdapter.Insert Method " Url="html/3f7261b9-04b9-0549-69c7-e71e6deecb9c.htm" />
@@ -261,18 +321,35 @@
     <HelpKINode Title="projetcnedDataSet.responsableDataTable.Item Property " Url="html/f58574d8-011a-5894-a613-2ed9679e866f.htm" />
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.Item Property " Url="html/b36b43c0-87f6-c0fd-dca3-153909a7c85c.htm" />
   </HelpKINode>
+  <HelpKINode Title="Libelle property" Url="html/4be4bdbf-db60-d4e1-cd24-bda782967a5d.htm" />
   <HelpKINode Title="LIBELLE property" Url="html/d7a7f7fd-6cbd-7019-b23c-bfcaee8bc716.htm" />
   <HelpKINode Title="LIBELLEColumn property" Url="html/9e32dfaa-bcef-b77b-11c7-77b98e136e78.htm" />
   <HelpKINode Title="login property" Url="html/c28138c9-fcd5-6dfc-857e-dad8267d3dd3.htm" />
   <HelpKINode Title="loginColumn property" Url="html/9e703da6-9402-710b-7e15-9178586936a1.htm" />
-  <HelpKINode Title="Mail property" Url="html/8b546a86-7556-18d9-91aa-5e809dead03c.htm" />
   <HelpKINode Title="MAIL property" Url="html/928980ff-f6f3-abff-4776-dcc907b55cb1.htm" />
+  <HelpKINode Title="Mail property" Url="html/8b546a86-7556-18d9-91aa-5e809dead03c.htm" />
   <HelpKINode Title="MAILColumn property" Url="html/a13786b7-bc33-2f44-ae0a-413c5826ec08.htm" />
   <HelpKINode Title="MatchTableAdapterConnection method" Url="html/b026fbc6-28d9-637f-8be6-b63c9715e30b.htm" />
-  <HelpKINode Title="ModAbs method" Url="html/d620be40-7b19-03e0-e6b9-63e12aa0871d.htm" />
-  <HelpKINode Title="ModPersonnel method" Url="html/b6519127-acce-c17a-6989-aa4513ca3ea9.htm" />
-  <HelpKINode Title="motif property" Url="html/d9eff610-b82f-05df-dba2-0653c7e451cf.htm" />
+  <HelpKINode Title="ModAbs method">
+    <HelpKINode Title="AccesConnexionBDD.ModAbs Method " Url="html/d620be40-7b19-03e0-e6b9-63e12aa0871d.htm" />
+    <HelpKINode Title="Controle.ModAbs Method " Url="html/f77cadbe-5971-3c55-7560-0e57f7d8073c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModPersonnel method">
+    <HelpKINode Title="AccesConnexionBDD.ModPersonnel Method " Url="html/b6519127-acce-c17a-6989-aa4513ca3ea9.htm" />
+    <HelpKINode Title="Controle.ModPersonnel Method " Url="html/59ad33a9-9faa-1255-f42b-c432fbe69b4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Motif class">
+    <HelpKINode Title="Motif Class" Url="html/ab2e9afd-d5db-9949-9ad0-76611bf95bcd.htm" />
+    <HelpKINode Title="constructor" Url="html/a362f693-6d5f-92de-f7e1-9cc43604d777.htm" />
+    <HelpKINode Title="methods" Url="html/077540c3-2ddc-052a-178c-8e5fdbf51f8f.htm" />
+    <HelpKINode Title="properties" Url="html/6a4ff2da-bb96-1289-5420-f2364a8fed36.htm" />
+  </HelpKINode>
   <HelpKINode Title="Motif property" Url="html/c0e6d787-cec9-6494-ee63-c5ea038c300d.htm" />
+  <HelpKINode Title="motif property" Url="html/d9eff610-b82f-05df-dba2-0653c7e451cf.htm" />
+  <HelpKINode Title="Motif.Idmotif property" Url="html/b25e8cf3-d937-9dd2-0c85-b418f05fd55d.htm" />
+  <HelpKINode Title="Motif.Libelle property" Url="html/4be4bdbf-db60-d4e1-cd24-bda782967a5d.htm" />
+  <HelpKINode Title="Motif.Motif constructor" Url="html/a362f693-6d5f-92de-f7e1-9cc43604d777.htm" />
+  <HelpKINode Title="Motif.ToString method" Url="html/de2488cd-2267-2cf7-6522-b8d5a5a88c85.htm" />
   <HelpKINode Title="motifDataTable class">
     <HelpKINode Title="events" Url="html/9d024718-3a1c-9a8d-c80c-d5a1ff1c5d86.htm" />
     <HelpKINode Title="fields" Url="html/33b03907-2ade-9280-2764-12f1b7dfd763.htm" />
@@ -320,7 +397,10 @@
     <HelpKINode Title="projetcnedDataSet.serviceDataTable.NewRowFromBuilder Method " Url="html/0b8481de-d648-b373-3332-317b807ce3d5.htm" />
   </HelpKINode>
   <HelpKINode Title="NewserviceRow method" Url="html/982d4cc3-1582-f0a3-8649-b5af72ca7a76.htm" />
-  <HelpKINode Title="Nom property" Url="html/b98dce55-2722-7af7-00a6-dc93a0ee43a6.htm" />
+  <HelpKINode Title="Nom property">
+    <HelpKINode Title="Personnel.Nom Property " Url="html/b98dce55-2722-7af7-00a6-dc93a0ee43a6.htm" />
+    <HelpKINode Title="Service.Nom Property " Url="html/2c6bc562-8476-762b-bb20-ca51a7a60cfa.htm" />
+  </HelpKINode>
   <HelpKINode Title="NOM property">
     <HelpKINode Title="projetcnedDataSet.personnelRow.NOM Property " Url="html/c2e8d4a9-0c21-379d-62fe-97e27800a7cb.htm" />
     <HelpKINode Title="projetcnedDataSet.serviceRow.NOM Property " Url="html/e15f49d9-bc83-05e5-7ef8-ccca195db073.htm" />
@@ -407,18 +487,22 @@
   <HelpKINode Title="personnelTableAdapter.Insert method" Url="html/14a2769a-080f-d828-abbd-f2da1ab5f882.htm" />
   <HelpKINode Title="personnelTableAdapter.personnelTableAdapter constructor" Url="html/ec1e89c9-caee-936f-c7c3-0989d2af946a.htm" />
   <HelpKINode Title="personnelTableAdapter.Update method" Url="html/902af0a2-737f-772d-4d32-a998ab5a8164.htm" />
-  <HelpKINode Title="PRENOM property" Url="html/41c9c1a7-9bfc-7808-52e8-256d8815bd86.htm" />
   <HelpKINode Title="Prenom property" Url="html/33a15d3d-5452-cf92-2c1b-ec6fb70654fa.htm" />
+  <HelpKINode Title="PRENOM property" Url="html/41c9c1a7-9bfc-7808-52e8-256d8815bd86.htm" />
   <HelpKINode Title="PRENOMColumn property" Url="html/c6d0064b-61d1-3b5d-851c-4014df2f937e.htm" />
   <HelpKINode Title="ProjetCned namespace" Url="html/2b2c8bae-57d7-12a0-52f6-9467c62c309b.htm" />
   <HelpKINode Title="ProjetCned.connexion namespace" Url="html/cdc929e3-fd45-be12-cecf-25089276a832.htm" />
   <HelpKINode Title="ProjetCned.connexion.ConnexionBDD class" Url="html/a8c4d314-c82c-2ab6-1cc2-872b03f1821c.htm" />
+  <HelpKINode Title="ProjetCned.controleur namespace" Url="html/7e3897b2-85ad-ecc6-2197-0f3d7727c287.htm" />
+  <HelpKINode Title="ProjetCned.controleur.Controle class" Url="html/a7c25950-1c5b-7a3f-6ea7-70c32dca882b.htm" />
   <HelpKINode Title="ProjetCned.dal namespace" Url="html/2dc3385c-b686-268c-d2b0-59b4bb36b22a.htm" />
   <HelpKINode Title="ProjetCned.dal.AccesConnexionBDD class" Url="html/972b755a-aded-0aad-e9ea-681b53aa964a.htm" />
   <HelpKINode Title="ProjetCned.FrmConnexion class" Url="html/2f045d4f-f5a4-3840-9d2c-226b1085f5db.htm" />
   <HelpKINode Title="ProjetCned.modele namespace" Url="html/feb97dac-b29e-ad99-e4a0-6951c310cf52.htm" />
   <HelpKINode Title="ProjetCned.modele.Absence class" Url="html/0785d4f9-7c0f-9b2f-1705-23bf272761aa.htm" />
+  <HelpKINode Title="ProjetCned.modele.Motif class" Url="html/ab2e9afd-d5db-9949-9ad0-76611bf95bcd.htm" />
   <HelpKINode Title="ProjetCned.modele.Personnel class" Url="html/e099e272-dc94-5ce8-1164-b14428275540.htm" />
+  <HelpKINode Title="ProjetCned.modele.Service class" Url="html/c69fd488-c4da-bf77-1780-a319eb98b0fb.htm" />
   <HelpKINode Title="ProjetCned.projetcnedDataSet class" Url="html/08435f16-61aa-9af6-ad06-93022cb69159.htm" />
   <HelpKINode Title="ProjetCned.projetcnedDataSet.absenceDataTable class" Url="html/e717f266-cd9f-b2df-6374-71dad47a9b9c.htm" />
   <HelpKINode Title="ProjetCned.projetcnedDataSet.absenceRow class" Url="html/41cc652b-7d3e-a110-4cb1-0e4a9d9dcd99.htm" />
@@ -693,7 +777,7 @@
   <HelpKINode Title="RemovepersonnelRow method" Url="html/75810eb7-9c53-0f63-3385-6b4d47e917fd.htm" />
   <HelpKINode Title="RemoveresponsableRow method" Url="html/1cde2f20-09e6-99b8-7fc1-77b102046312.htm" />
   <HelpKINode Title="RemoveserviceRow method" Url="html/e6082623-cc08-43c0-f652-aa7c654f55f0.htm" />
-  <HelpKINode Title="ReqSelect method" Url="html/cc1d5c8e-02e0-fc1e-522a-ded3a418cd6e.htm" />
+  <HelpKINode Title="ReqSelect method" Url="html/962340f5-f205-64b4-8faa-a6f9de7ba60f.htm" />
   <HelpKINode Title="ReqUpdate method" Url="html/1ee87842-6d46-bf99-4482-0f2943c827c1.htm" />
   <HelpKINode Title="responsable property" Url="html/1822f9ad-a4d8-ee5d-b4ce-0e5e480e17f7.htm" />
   <HelpKINode Title="responsableDataTable class">
@@ -738,8 +822,18 @@
     <HelpKINode Title="projetcnedDataSet.serviceRowChangeEvent.Row Property " Url="html/3637adcb-087c-07fc-1265-e5c4a5c3bd99.htm" />
   </HelpKINode>
   <HelpKINode Title="SchemaSerializationMode property" Url="html/462ca838-9bed-279d-26d9-e28a35c09e67.htm" />
+  <HelpKINode Title="Service class">
+    <HelpKINode Title="Service Class" Url="html/c69fd488-c4da-bf77-1780-a319eb98b0fb.htm" />
+    <HelpKINode Title="constructor" Url="html/821ea2b2-9e15-aced-6881-33fa493716e8.htm" />
+    <HelpKINode Title="methods" Url="html/d1c5f04a-89f5-1573-37b6-aa26f347ce0e.htm" />
+    <HelpKINode Title="properties" Url="html/92d1c613-fa7a-a799-acc2-b61babb64c93.htm" />
+  </HelpKINode>
   <HelpKINode Title="service property" Url="html/0a6bc751-54a6-a813-7c78-4223a07bc2e9.htm" />
   <HelpKINode Title="Service property" Url="html/c285597b-40fb-7a5c-af23-e121d2c974e7.htm" />
+  <HelpKINode Title="Service.Idservice property" Url="html/8380e7eb-c9a6-38fb-f34f-4cc5b3623a39.htm" />
+  <HelpKINode Title="Service.Nom property" Url="html/2c6bc562-8476-762b-bb20-ca51a7a60cfa.htm" />
+  <HelpKINode Title="Service.Service constructor" Url="html/821ea2b2-9e15-aced-6881-33fa493716e8.htm" />
+  <HelpKINode Title="Service.ToString method" Url="html/b25f8fd0-52d0-97b2-273a-890138abc697.htm" />
   <HelpKINode Title="serviceDataTable class">
     <HelpKINode Title="events" Url="html/d95f2647-48cf-b215-b115-36999c38fa27.htm" />
     <HelpKINode Title="fields" Url="html/771c8eaa-c9cc-b412-b0ea-def58c1768c6.htm" />
@@ -810,9 +904,13 @@
   <HelpKINode Title="TableAdapterManager.UpdateOrder property" Url="html/7b02b475-11d8-6649-bbde-e124965f471d.htm" />
   <HelpKINode Title="TableAdapterManager.UpdateOrderOption enumeration" Url="html/31e3c365-d3fa-aa10-3f42-98e47569df89.htm" />
   <HelpKINode Title="Tables property" Url="html/1fa299ae-2fc5-9ed8-2170-d24820c070a5.htm" />
-  <HelpKINode Title="TEL property" Url="html/78b5dc77-215a-03ce-a833-4afb5298adb9.htm" />
   <HelpKINode Title="Tel property" Url="html/0673f70b-73e4-9731-8deb-e80bcae99c12.htm" />
+  <HelpKINode Title="TEL property" Url="html/78b5dc77-215a-03ce-a833-4afb5298adb9.htm" />
   <HelpKINode Title="TELColumn property" Url="html/ba620e72-f7aa-fd18-20a0-1c44c62237d8.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Motif.ToString Method " Url="html/de2488cd-2267-2cf7-6522-b8d5a5a88c85.htm" />
+    <HelpKINode Title="Service.ToString Method " Url="html/b25f8fd0-52d0-97b2-273a-890138abc697.htm" />
+  </HelpKINode>
   <HelpKINode Title="Update method">
     <HelpKINode Title="absenceTableAdapter.Update Method " Url="html/87a24916-be3c-f0b6-aa88-179228bf3a04.htm" />
     <HelpKINode Title="motifTableAdapter.Update Method " Url="html/ad094d88-9a92-e65a-0d35-5b7a7e8780ea.htm" />

@@ -104,6 +104,7 @@ namespace ProjetCned.vue
             this.btnAnnulerPers.TabIndex = 11;
             this.btnAnnulerPers.Text = "annuler";
             this.btnAnnulerPers.UseVisualStyleBackColor = true;
+            this.btnAnnulerPers.Click += new System.EventHandler(this.btnAnnulerPers_Click);
             // 
             // btnEnregistrerPers
             // 
@@ -113,6 +114,7 @@ namespace ProjetCned.vue
             this.btnEnregistrerPers.TabIndex = 10;
             this.btnEnregistrerPers.Text = "enregistrer";
             this.btnEnregistrerPers.UseVisualStyleBackColor = true;
+            this.btnEnregistrerPers.Click += new System.EventHandler(this.btnEnregistrerPers_Click);
             // 
             // label5
             // 
@@ -203,18 +205,20 @@ namespace ProjetCned.vue
             this.btnAjouterPers.TabIndex = 1;
             this.btnAjouterPers.Text = "ajouter";
             this.btnAjouterPers.UseVisualStyleBackColor = true;
+            this.btnAjouterPers.Click += new System.EventHandler(this.btnAjouterPers_Click);
             // 
             // dataPersonnel
             // 
-            this.dataPersonnel.AutoGenerateColumns = false;
+            this.dataPersonnel.AllowUserToAddRows = false;
+            this.dataPersonnel.AllowUserToDeleteRows = false;
             this.dataPersonnel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataPersonnel.DataSource = this.projetcnedDataSetBindingSource;
             this.dataPersonnel.Location = new System.Drawing.Point(18, 31);
             this.dataPersonnel.Name = "dataPersonnel";
-            this.dataPersonnel.RowHeadersWidth = 51;
+            this.dataPersonnel.ReadOnly = true;
+            this.dataPersonnel.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataPersonnel.RowTemplate.Height = 24;
             this.dataPersonnel.Size = new System.Drawing.Size(761, 226);
-            this.dataPersonnel.TabIndex = 2;
+            this.dataPersonnel.TabIndex = 0;
             // 
             // projetcnedDataSetBindingSource
             // 
@@ -248,6 +252,7 @@ namespace ProjetCned.vue
             this.btnGestionAbs.TabIndex = 7;
             this.btnGestionAbs.Text = "gérer absences";
             this.btnGestionAbs.UseVisualStyleBackColor = true;
+            this.btnGestionAbs.Click += new System.EventHandler(this.btnGestionAbs_Click);
             // 
             // btnSupprPers
             // 
@@ -258,6 +263,7 @@ namespace ProjetCned.vue
             this.btnSupprPers.TabIndex = 4;
             this.btnSupprPers.Text = "supprimer";
             this.btnSupprPers.UseVisualStyleBackColor = true;
+            this.btnSupprPers.Click += new System.EventHandler(this.btnSupprPers_Click);
             // 
             // btnModifierPers
             // 
@@ -268,6 +274,7 @@ namespace ProjetCned.vue
             this.btnModifierPers.TabIndex = 5;
             this.btnModifierPers.Text = "modifier";
             this.btnModifierPers.UseVisualStyleBackColor = true;
+            this.btnModifierPers.Click += new System.EventHandler(this.btnModifierPers_Click);
             // 
             // grpabsence
             // 
@@ -401,9 +408,7 @@ namespace ProjetCned.vue
             // 
             // dataAbsence
             // 
-            this.dataAbsence.AutoGenerateColumns = false;
             this.dataAbsence.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataAbsence.DataSource = this.projetcnedDataSetBindingSource;
             this.dataAbsence.Location = new System.Drawing.Point(8, 21);
             this.dataAbsence.Name = "dataAbsence";
             this.dataAbsence.RowHeadersWidth = 51;
