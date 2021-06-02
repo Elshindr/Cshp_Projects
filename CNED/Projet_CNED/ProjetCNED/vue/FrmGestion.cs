@@ -341,7 +341,12 @@ namespace ProjetCned.vue
 
                 if (ModifAbs)
                 {
+                    controle.ModAbsdebut(uneAbsence);
+ 
+                    uneAbsence = new Absence(lepersonnel.Idpersonnel, uneAbsence.Datedebut, dateFin.Value, lemotif.Libelle, lemotif.Idmotif);
+
                     controle.ModAbs(uneAbsence);
+                
                     ModifAbs = false;
                 }
                 else
@@ -359,6 +364,7 @@ namespace ProjetCned.vue
             }
 
             grpGestionAbs.Enabled = false;
+            ViderAbs();
         }
 
 
@@ -441,5 +447,6 @@ namespace ProjetCned.vue
                 MessageBox.Show("Selectionner une ligne", "Information");
             }
         }
+   
     }
 }

@@ -108,7 +108,7 @@ namespace ProjetCned.dal
             string req = "select idpersonnel as idpersonnel, datedebut as datedebut, datefin as datefin, a.idmotif as idmotif , m.libelle as motif";
             req += " from absence a join motif m on (a.idmotif = m.idmotif)";
             req += " where idpersonnel = @idpersonnel";
-            req += " order by datedebut, datefin;";
+            req += " order by datedebut DESC, datefin DESC;";
 
             List<Absence> lesAbsences = new List<Absence>();
 
@@ -232,13 +232,13 @@ namespace ProjetCned.dal
 
 
         /// <summary>
-        /// Modifier une absence
+        /// Modifier une absence date de fin ou/et motif
         /// </summary>
         /// <param name="uneabs"> une absence</param>
         public static void ModAbs(Absence uneabs)
         {
-            string req = "update absence set datefin = @datefin, datedebut = @datedebut, idmotif= @idmotif, idpersonnel = @idpersonnel";
-            req += " where idpersonnel = @idpersonnel and datefin=@datefin and datedebut = @datedebut;";
+            string req = "update absence set datefin = @datefin, idmotif = @idmotif";
+            req += " where idpersonnel = @idpersonnel and datedebut = @datedebut;";
 
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@idpersonnel", uneabs.Idpersonnel);
@@ -246,6 +246,26 @@ namespace ProjetCned.dal
             param.Add("@datedebut", uneabs.Datedebut);
             param.Add("@idmotif", uneabs.Idmotif);
 
+            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            connexion.ReqUpdate(req, param);
+
+        }
+
+
+        /// <summary>
+        /// Modifier une absence date d'entrée en absence
+        /// </summary>
+        /// <param name="uneabs"> une absence</param>
+        public static void ModAbsdebut(Absence uneabs)
+        {
+            string req = "update absence set datedebut = @datedebut";
+            req += " where idpersonnel = @idpersonnel;";
+            
+            Dictionary<string, object> param = new Dictionary<string, object>();
+            param.Add("@idpersonnel", uneabs.Idpersonnel);
+            
+            param.Add("@datedebut", uneabs.Datedebut);
+            
             ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
 

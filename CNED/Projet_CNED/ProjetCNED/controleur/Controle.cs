@@ -131,14 +131,24 @@ namespace ProjetCned.controleur
 
 
         /// <summary>
-        /// Modifier les informations d'une absence
+        /// Modifier la date d'entrée d'une absence
+        /// </summary>
+        /// <param name="uneabs"></param>
+        public void ModAbsdebut(Absence uneabs)
+        {
+             AccesConnexionBDD.ModAbsdebut(uneabs);
+        }
+
+
+        /// <summary>
+        /// Modifier le motif et la date de fin d'une absence 
         /// </summary>
         /// <param name="uneabs"></param>
         public void ModAbs(Absence uneabs)
         {
             AccesConnexionBDD.ModAbs(uneabs);
         }
-
+        
 
         /// <summary>
         /// Récupérer la liste des motifs d'absence

@@ -286,7 +286,7 @@ namespace ProjetCned.vue
             this.grpabsence.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpabsence.Location = new System.Drawing.Point(13, 455);
             this.grpabsence.Name = "grpabsence";
-            this.grpabsence.Size = new System.Drawing.Size(775, 435);
+            this.grpabsence.Size = new System.Drawing.Size(775, 377);
             this.grpabsence.TabIndex = 6;
             this.grpabsence.TabStop = false;
             this.grpabsence.Text = "Liste Absences";
@@ -302,7 +302,7 @@ namespace ProjetCned.vue
             this.grpGestionAbs.Controls.Add(this.label7);
             this.grpGestionAbs.Controls.Add(this.cobMotif);
             this.grpGestionAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpGestionAbs.Location = new System.Drawing.Point(8, 268);
+            this.grpGestionAbs.Location = new System.Drawing.Point(8, 215);
             this.grpGestionAbs.Name = "grpGestionAbs";
             this.grpGestionAbs.Size = new System.Drawing.Size(758, 146);
             this.grpGestionAbs.TabIndex = 11;
@@ -311,7 +311,7 @@ namespace ProjetCned.vue
             // 
             // btnAnnulerAbs
             // 
-            this.btnAnnulerAbs.Location = new System.Drawing.Point(621, 106);
+            this.btnAnnulerAbs.Location = new System.Drawing.Point(627, 90);
             this.btnAnnulerAbs.Name = "btnAnnulerAbs";
             this.btnAnnulerAbs.Size = new System.Drawing.Size(125, 40);
             this.btnAnnulerAbs.TabIndex = 8;
@@ -330,7 +330,7 @@ namespace ProjetCned.vue
             // 
             // btnEnregistrerAbs
             // 
-            this.btnEnregistrerAbs.Location = new System.Drawing.Point(490, 106);
+            this.btnEnregistrerAbs.Location = new System.Drawing.Point(490, 90);
             this.btnEnregistrerAbs.Name = "btnEnregistrerAbs";
             this.btnEnregistrerAbs.Size = new System.Drawing.Size(125, 40);
             this.btnEnregistrerAbs.TabIndex = 7;
@@ -360,6 +360,7 @@ namespace ProjetCned.vue
             this.dateDebut.Name = "dateDebut";
             this.dateDebut.Size = new System.Drawing.Size(240, 22);
             this.dateDebut.TabIndex = 1;
+            
             // 
             // label7
             // 
@@ -381,7 +382,7 @@ namespace ProjetCned.vue
             // btnModifierAbs
             // 
             this.btnModifierAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModifierAbs.Location = new System.Drawing.Point(270, 222);
+            this.btnModifierAbs.Location = new System.Drawing.Point(635, 153);
             this.btnModifierAbs.Name = "btnModifierAbs";
             this.btnModifierAbs.Size = new System.Drawing.Size(125, 40);
             this.btnModifierAbs.TabIndex = 10;
@@ -392,7 +393,7 @@ namespace ProjetCned.vue
             // btnSupprAbs
             // 
             this.btnSupprAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupprAbs.Location = new System.Drawing.Point(139, 222);
+            this.btnSupprAbs.Location = new System.Drawing.Point(635, 92);
             this.btnSupprAbs.Name = "btnSupprAbs";
             this.btnSupprAbs.Size = new System.Drawing.Size(125, 40);
             this.btnSupprAbs.TabIndex = 9;
@@ -403,7 +404,7 @@ namespace ProjetCned.vue
             // btnAjouterAbs
             // 
             this.btnAjouterAbs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjouterAbs.Location = new System.Drawing.Point(8, 222);
+            this.btnAjouterAbs.Location = new System.Drawing.Point(635, 21);
             this.btnAjouterAbs.Name = "btnAjouterAbs";
             this.btnAjouterAbs.Size = new System.Drawing.Size(125, 40);
             this.btnAjouterAbs.TabIndex = 8;
@@ -418,7 +419,7 @@ namespace ProjetCned.vue
             this.dataAbsence.Name = "dataAbsence";
             this.dataAbsence.RowHeadersWidth = 51;
             this.dataAbsence.RowTemplate.Height = 24;
-            this.dataAbsence.Size = new System.Drawing.Size(763, 185);
+            this.dataAbsence.Size = new System.Drawing.Size(493, 172);
             this.dataAbsence.TabIndex = 0;
             // 
             // FrmGestion
@@ -427,7 +428,7 @@ namespace ProjetCned.vue
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(800, 895);
+            this.ClientSize = new System.Drawing.Size(800, 864);
             this.Controls.Add(this.grpabsence);
             this.Controls.Add(this.dataPersonnel);
             this.Controls.Add(this.btnAjouterPers);
