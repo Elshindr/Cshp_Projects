@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ProjetCned.controleur;
+using System;
 using System.Windows.Forms;
-using ProjetCned.controleur;
 
 namespace ProjetCned
 {

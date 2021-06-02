@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetCned.modele
 {
@@ -44,22 +40,22 @@ namespace ProjetCned.modele
         /// <summary>
         /// Getter sur datadebut
         /// </summary>
-        public DateTime Datedebut { get => datedebut;}
+        public DateTime Datedebut { get => datedebut; }
 
         /// <summary>
         /// Getter sur datefin
         /// </summary>
-        public DateTime Datefin { get => datefin;}
+        public DateTime Datefin { get => datefin; }
 
         /// <summary>
         /// Getter sur motif
         /// </summary>
-        public string Motif { get => motif;}
+        public string Motif { get => motif; }
 
         /// <summary>
         /// Getter sur idmotif
         /// </summary>
-        public int Idmotif { get => idmotif;}
+        public int Idmotif { get => idmotif; }
 
         /// <summary>
         /// Constructeur d'Absence et valorise ses propriétés

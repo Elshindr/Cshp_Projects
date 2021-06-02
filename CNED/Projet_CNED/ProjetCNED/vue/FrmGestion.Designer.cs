@@ -317,6 +317,7 @@ namespace ProjetCned.vue
             this.btnAnnulerAbs.TabIndex = 8;
             this.btnAnnulerAbs.Text = "annuler";
             this.btnAnnulerAbs.UseVisualStyleBackColor = true;
+            this.btnAnnulerAbs.Click += new System.EventHandler(this.btnAnnulerAbs_Click);
             // 
             // label8
             // 
@@ -335,6 +336,7 @@ namespace ProjetCned.vue
             this.btnEnregistrerAbs.TabIndex = 7;
             this.btnEnregistrerAbs.Text = "enregistrer";
             this.btnEnregistrerAbs.UseVisualStyleBackColor = true;
+            this.btnEnregistrerAbs.Click += new System.EventHandler(this.btnEnregistrerAbs_Click);
             // 
             // dateFin
             // 
@@ -385,6 +387,7 @@ namespace ProjetCned.vue
             this.btnModifierAbs.TabIndex = 10;
             this.btnModifierAbs.Text = "modifier";
             this.btnModifierAbs.UseVisualStyleBackColor = true;
+            this.btnModifierAbs.Click += new System.EventHandler(this.btnModifierAbs_Click);
             // 
             // btnSupprAbs
             // 
@@ -395,6 +398,7 @@ namespace ProjetCned.vue
             this.btnSupprAbs.TabIndex = 9;
             this.btnSupprAbs.Text = "supprimer";
             this.btnSupprAbs.UseVisualStyleBackColor = true;
+            this.btnSupprAbs.Click += new System.EventHandler(this.btnSupprAbs_Click);
             // 
             // btnAjouterAbs
             // 
@@ -405,6 +409,7 @@ namespace ProjetCned.vue
             this.btnAjouterAbs.TabIndex = 8;
             this.btnAjouterAbs.Text = "ajouter";
             this.btnAjouterAbs.UseVisualStyleBackColor = true;
+            this.btnAjouterAbs.Click += new System.EventHandler(this.btnAjouterAbs_Click);
             // 
             // dataAbsence
             // 
@@ -420,6 +425,8 @@ namespace ProjetCned.vue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(800, 895);
             this.Controls.Add(this.grpabsence);
             this.Controls.Add(this.dataPersonnel);

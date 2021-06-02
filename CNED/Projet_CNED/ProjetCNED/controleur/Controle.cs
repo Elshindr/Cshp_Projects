@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using ProjetCned.dal;
 using ProjetCned.modele;
-using ProjetCned.dal;
 using ProjetCned.vue;
+using System;
+using System.Collections.Generic;
 
 namespace ProjetCned.controleur
 {

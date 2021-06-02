@@ -1,9 +1,6 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
 
 namespace ProjetCned.connexion
 {
@@ -105,14 +102,14 @@ namespace ProjetCned.connexion
             try
             {
                 commande = new MySqlCommand(req, connexion);
-                if(!(parametres is null))
+                if (!(parametres is null))
                 {
                     foreach (KeyValuePair<string, object> param in parametres)
                     {
                         commande.Parameters.Add(new MySqlParameter(param.Key, param.Value));
                     }
                 }
-                
+
                 commande.Prepare();
                 curseur = commande.ExecuteReader();
             }
@@ -129,7 +126,7 @@ namespace ProjetCned.connexion
         /// <returns>false si fin de curseur atteinte</returns>
         public bool Read()
         {
-            if(curseur is null)
+            if (curseur is null)
             {
                 return false;
             }
@@ -151,7 +148,7 @@ namespace ProjetCned.connexion
         /// <returns>valeur du champ</returns>
         public object Field(string champ)
         {
-            if(curseur is null)
+            if (curseur is null)
             {
                 return null;
             }
@@ -171,7 +168,7 @@ namespace ProjetCned.connexion
         /// </summary>
         public void Close()
         {
-            if(!(curseur is null))
+            if (!(curseur is null))
             {
                 curseur.Close();
             }

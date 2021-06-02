@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjetCned.modele
+﻿namespace ProjetCned.modele
 {
     /// <summary>
     /// Classe des services du personnel
@@ -26,7 +20,7 @@ namespace ProjetCned.modele
         /// <summary>
         /// Getter d'encapsulation d'idservice
         /// </summary>
-        public int Idservice { get => idservice;}
+        public int Idservice { get => idservice; }
 
 
         /// <summary>
@@ -40,7 +34,7 @@ namespace ProjetCned.modele
         /// </summary>
         /// <param name="idservice"></param>
         /// <param name="nom"></param>
-        public Service(int idservice, string nom )
+        public Service(int idservice, string nom)
         {
             this.idservice = idservice;
 

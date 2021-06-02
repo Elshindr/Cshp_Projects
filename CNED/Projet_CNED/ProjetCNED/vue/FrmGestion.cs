@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using ProjetCned.controleur;
+﻿using ProjetCned.controleur;
 using ProjetCned.modele;
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace ProjetCned.vue
 {
@@ -50,9 +44,9 @@ namespace ProjetCned.vue
         /// <summary>
         /// Variable de gestion des enregistrements
         /// </summary>
-        private Boolean ModifenCours = false;
+        private Boolean ModifPers = false;
 
-
+        private Boolean ModifAbs = false;
 
         /// <summary>
         /// Initialisation des composants graphiques
@@ -148,16 +142,15 @@ namespace ProjetCned.vue
             if (!txtnom.Text.Equals("") && !txtprenom.Text.Equals("") && !txttel.Text.Equals("") && !txtmail.Text.Equals("") && cobservice.SelectedIndex != -1)
             {
                 int idpersonnel = 0;
-                if (ModifenCours)
+                if (ModifPers)
                 {
                     idpersonnel = (int)dataPersonnel.SelectedRows[0].Cells["idpersonnel"].Value;
                 }
                 Personnel unPersonnel = new Personnel(idpersonnel, txtnom.Text, txtprenom.Text, txttel.Text, txtmail.Text, service.Idservice, service.Nom);
-                if (ModifenCours)
+                if (ModifPers)
                 {
                     controle.ModPersonnel(unPersonnel);
-                    MessageBox.Show(unPersonnel.Nom + " " + unPersonnel.Service, "fenetre test");
-                    ModifenCours = false;
+                    ModifPers = false;
                     grpGestionPers.Enabled = true;
                 }
                 else
@@ -165,13 +158,12 @@ namespace ProjetCned.vue
                     controle.AddPersonnel(unPersonnel);
                 }
                 AfficherListePersonnel();
-                Vider();
+                ViderPers();
             }
             else
             {
                 MessageBox.Show("Il faut remplir tout les champ avant validation", "Erreur de saisie");
             }
-
 
         }
 
@@ -184,18 +176,9 @@ namespace ProjetCned.vue
         /// <param name="e"></param>
         private void btnAnnulerPers_Click(object sender, EventArgs e)
         {
-            if (dataPersonnel.SelectedRows.Count > 0)
-            {
-                if (MessageBox.Show("Voulez vous vraiment annuler la saisie?", "Annulation ajouter", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                {
-                    Vider();
 
-                }
-            }
-            else
-            {
-                MessageBox.Show("Une ligne doit être sélectionnée.", "Information");
-            }
+            ViderPers();
+            grpGestionPers.Enabled = false;
         }
 
 
@@ -203,7 +186,7 @@ namespace ProjetCned.vue
         /// <summary>
         /// Vider les champs de textes
         /// </summary>
-        private void Vider()
+        private void ViderPers()
         {
             // Vider champs
             txtnom.Text = "";
@@ -254,7 +237,7 @@ namespace ProjetCned.vue
             if (dataPersonnel.SelectedRows.Count > 0)
             {
                 grpGestionPers.Enabled = true;
-                ModifenCours = true;
+                ModifPers = true;
 
                 Personnel unpersonnel = (Personnel)bdgPersonnel.List[bdgPersonnel.Position];
 
@@ -285,10 +268,9 @@ namespace ProjetCned.vue
             {
                 grpGestionPers.Enabled = false;
                 grpabsence.Enabled = true;
-                grpGestionAbs.Enabled = true;
+                grpGestionAbs.Enabled = false;
 
                 Personnel unpersonnel = (Personnel)bdgPersonnel.List[bdgPersonnel.Position];
-                MessageBox.Show(unpersonnel.Nom);
                 AfficherAbs(unpersonnel);
                 AfficherMotif();
             }
@@ -310,6 +292,10 @@ namespace ProjetCned.vue
             bdgAbs.DataSource = lesabs;
             dataAbsence.DataSource = bdgAbs;
 
+            dataAbsence.Columns["idpersonnel"].Visible = false;
+            dataAbsence.Columns["idmotif"].Visible = false;
+            dataAbsence.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+
         }
 
 
@@ -326,5 +312,134 @@ namespace ProjetCned.vue
         }
 
 
+        /// <summary>
+        /// Evenement click sur btnAjouterAbs
+        /// Gére l'affichage des zones de saisies
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAjouterAbs_Click(object sender, EventArgs e)
+        {
+            grpGestionAbs.Enabled = true;
+
+        }
+
+
+        /// <summary>
+        /// Evenement click btnEnregistrerAbs
+        /// Enregistre les données saisies et met l'affichage à jour
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnEnregistrerAbs_Click(object sender, EventArgs e)
+        {
+            if ((dateDebut.Value < dateFin.Value) && (cobMotif.SelectedIndex != -1))
+            {
+                Personnel lepersonnel = (Personnel)bdgPersonnel.List[bdgPersonnel.Position];
+                Motif lemotif = (Motif)bdgMotif.List[bdgMotif.Position];
+                Absence uneAbsence = new Absence(lepersonnel.Idpersonnel, dateDebut.Value, dateFin.Value, lemotif.Libelle, lemotif.Idmotif);
+
+                if (ModifAbs)
+                {
+                    controle.ModAbs(uneAbsence);
+                    ModifAbs = false;
+                }
+                else
+                {
+                    controle.AddAbsence(uneAbsence);
+                }
+
+
+                AfficherAbs(lepersonnel);
+
+            }
+            else
+            {
+                MessageBox.Show("Champs non valides", "Erreur Saisie");
+            }
+
+            grpGestionAbs.Enabled = false;
+        }
+
+
+
+        /// <summary>
+        /// Evenement Click  sur btnAnnulerAbs
+        /// Annuler la saisie d'une absence
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAnnulerAbs_Click(object sender, EventArgs e)
+        {
+            ViderAbs();
+        }
+
+
+        /// <summary>
+        /// Vider les saisies et fermer le grpGestionAbs
+        /// </summary>
+        public void ViderAbs()
+        {
+            dateDebut.Value = DateTime.Today;
+            dateFin.Value = DateTime.Today;
+            cobMotif.SelectedIndex = 0;
+
+            grpGestionAbs.Enabled = false;
+        }
+
+
+
+        /// <summary>
+        /// Evenement click sur btnSupprAbs
+        /// Supprimer une absence d'un personnel
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSupprAbs_Click(object sender, EventArgs e)
+        {
+            if (dataAbsence.SelectedRows.Count > 0)
+            {
+                Absence absence = (Absence)bdgAbs.List[bdgAbs.Position];
+                if (MessageBox.Show("Etes vous sur de vouloir supprimer l'absence du" + absence.Datedebut + " au " + absence.Datefin + " pour " + absence.Motif + "?", "Validation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    controle.DelAbs(absence);
+                }
+
+                Personnel unpersonnel = (Personnel)bdgPersonnel.List[bdgPersonnel.Position];
+                AfficherAbs(unpersonnel);
+                ViderAbs();
+            }
+            else
+            {
+                MessageBox.Show("Sélectionner une ligne", "Erreur Sélection");
+            }
+        }
+
+
+
+        /// <summary>
+        /// Event click sur btnModifierAbs
+        /// Gerer la modification d'une absence selectionné
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnModifierAbs_Click(object sender, EventArgs e)
+        {
+            if (dataAbsence.SelectedRows.Count == 1)
+            {
+                Absence uneabsence = (Absence)bdgAbs.List[bdgAbs.Position];
+
+                dateDebut.Value = uneabsence.Datedebut;
+                dateFin.Value = uneabsence.Datefin;
+                cobMotif.SelectedIndex = cobMotif.FindStringExact(uneabsence.Motif);
+
+                grpGestionAbs.Enabled = true;
+                ModifAbs = true;
+            }
+            else
+            {
+                MessageBox.Show("Selectionner une ligne", "Information");
+            }
+        }
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjetCned.modele
+﻿namespace ProjetCned.modele
 {
     /// <summary>
     /// Classe représentant les motifs d'absence d'un personnel
@@ -30,7 +24,7 @@ namespace ProjetCned.modele
         /// <summary>
         /// Getter sur libelle
         /// </summary>
-        public string Libelle { get => libelle;}
+        public string Libelle { get => libelle; }
 
         /// <summary>
         /// Constructeur de Motif et valorise ses propriétés

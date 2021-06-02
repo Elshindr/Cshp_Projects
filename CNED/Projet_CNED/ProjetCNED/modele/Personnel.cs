@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjetCned.modele
+﻿namespace ProjetCned.modele
 {
     /// <summary>
     /// Classe représentant le personnel
@@ -69,17 +63,17 @@ namespace ProjetCned.modele
         /// <summary>
         /// Getter sur mail
         /// </summary>
-        public string Mail { get => mail;}
+        public string Mail { get => mail; }
 
         /// <summary>
         /// Getter sur idservice
         /// </summary>
-        public int Idservice { get => idservice;}
+        public int Idservice { get => idservice; }
 
         /// <summary>
         /// Getter sur service
         /// </summary>
-        public string Service { get => service;}
+        public string Service { get => service; }
 
 
         /// <summary>
@@ -99,7 +93,7 @@ namespace ProjetCned.modele
             this.prenom = prenom;
             this.tel = tel;
             this.mail = mail;
-           
+
             this.idservice = idservice;
             this.service = service;
         }

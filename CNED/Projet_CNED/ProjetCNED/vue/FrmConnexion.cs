@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProjetCned.controleur;
+using System;
 using System.Windows.Forms;
-using ProjetCned.controleur;
 
 namespace ProjetCned
 {
@@ -42,13 +35,13 @@ namespace ProjetCned
         /// <param name="e"></param>
         private void btnconnexion_Click(object sender, EventArgs e)
         {
-             if (!txtlogin.Text.Equals("") && !txtpwd.Text.Equals(""))
-             {
-                    if(!controle.Authentification(txtlogin.Text, txtpwd.Text))
-                    {
-                        MessageBox.Show("Mauvais mot de passe ou login", "Erreur Connexion");
-                    }
-             }
+            if (!txtlogin.Text.Equals("") && !txtpwd.Text.Equals(""))
+            {
+                if (!controle.Authentification(txtlogin.Text, txtpwd.Text))
+                {
+                    MessageBox.Show("Mauvais mot de passe ou login", "Erreur Connexion");
+                }
+            }
             else
             {
                 MessageBox.Show("Champs non rempli", "Erreur champs invalide");
