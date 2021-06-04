@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="39bcc2fb-cda4-43f8-9263-6b9dc33481ac" Title="ProjetCned" Url="html/2b2c8bae-57d7-12a0-52f6-9467c62c309b.htm">
+    <HelpTOCNode Id="37b2280c-b4c4-49a0-b84d-4cf590e57d84" Title="FrmConnexion Class" Url="html/2f045d4f-f5a4-3840-9d2c-226b1085f5db.htm">
+      <HelpTOCNode Title="FrmConnexion Constructor " Url="html/a624189a-bb47-021c-5f0e-42eecc71d654.htm" />
+      <HelpTOCNode Title="FrmConnexion Properties" Url="html/2d9f3a55-47ea-7dc8-9058-f1d6c6f026e2.htm" />
+      <HelpTOCNode Id="bbf97e81-5be5-4716-90db-b571063828bc" Title="FrmConnexion Methods" Url="html/01d1c613-98e1-c257-d1fb-b3c5f21ed5f3.htm">
+        <HelpTOCNode Title="btnconnexion_Click Method " Url="html/f3a8cf30-c5b8-b346-ac32-7dbb3970e826.htm" />
+        <HelpTOCNode Id="8252b44d-eb00-4bcc-addd-5939d8cfa2df" Title="Dispose Method " Url="html/e131b2c8-0434-326d-ea99-dc732657f64b.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1f673776-b96b-aad3-a9a5-01db5b7ea44a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/c83b1cc3-fffd-e8b9-b73b-80c97d684fcb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FrmConnexion Events" Url="html/174ee4df-72bb-7ca7-b319-b6f5c7d00d0e.htm" />
+      <HelpTOCNode Id="44bb5063-429a-4cca-9511-123004211e5c" Title="FrmConnexion Fields" Url="html/b77229d5-8cf6-bef4-c8c4-a93f98f8a629.htm">
+        <HelpTOCNode Title="btnconnexion Field" Url="html/50f08f87-8c7b-3bfc-7ebd-fb0d6180aa41.htm" />
+        <HelpTOCNode Title="components Field" Url="html/ba996c90-02fb-0fa4-3388-fdf445dcdc71.htm" />
+        <HelpTOCNode Title="controle Field" Url="html/f7199dc0-86a0-afb7-6264-2dfb46a68b4a.htm" />
+        <HelpTOCNode Title="lbllogin Field" Url="html/b726e619-cc83-c88f-0f13-f42e1b9ebd11.htm" />
+        <HelpTOCNode Title="lblpwd Field" Url="html/90cb4412-e209-6813-39b5-93d9bd21d5d3.htm" />
+        <HelpTOCNode Title="txtlogin Field" Url="html/9ff15016-d65f-415a-cabd-2f6d4535a257.htm" />
+        <HelpTOCNode Title="txtpwd Field" Url="html/e4fd05e0-84c6-0bde-9a4e-fcc292ceaa44.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2a2071d0-8a6b-4034-ba8b-6fc36f1a7553" Title="Program Class" Url="html/cedb431d-faec-b427-99ef-40d4f51f20dd.htm">
+      <HelpTOCNode Id="7cf09e09-bb7f-4fd9-b912-291612bd24cf" Title="Program Methods" Url="html/74399014-15fb-dee7-4704-c656abc7ab56.htm">
+        <HelpTOCNode Title="Main Method " Url="html/727c5af5-fe0b-7201-821a-58d0923b55ae.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5f1da05-1467-4c25-871a-9ffdf05ca668" Title="projetcnedDataSet Class" Url="html/08435f16-61aa-9af6-ad06-93022cb69159.htm">
+      <HelpTOCNode Id="09ac7a89-89ab-4351-8a2c-51f4bb568ca8" Title="projetcnedDataSet Constructor " Url="html/a35b8b6a-63dd-003b-704c-cdbbe10df3a5.htm">
+        <HelpTOCNode Title="projetcnedDataSet Constructor " Url="html/ceb9a945-3fb4-bed6-5b2f-78ffff19dd3c.htm" />
+        <HelpTOCNode Title="projetcnedDataSet Constructor (SerializationInfo, StreamingContext)" Url="html/4504093b-dbfb-9e2f-7535-1b9fb26de8b9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fd3e27e3-34d9-4151-a9fb-8daa64574dc5" Title="projetcnedDataSet Properties" Url="html/4a9166e6-0b85-1b20-5830-51820efa0ae7.htm">
+        <HelpTOCNode Title="absence Property " Url="html/8bed5921-462d-4c38-ff5c-e2856b3c93b1.htm" />
+        <HelpTOCNode Title="motif Property " Url="html/d9eff610-b82f-05df-dba2-0653c7e451cf.htm" />
+        <HelpTOCNode Title="personnel Property " Url="html/4fadbe1f-d0f1-5816-62cb-1f4e667db649.htm" />
+        <HelpTOCNode Title="Relations Property " Url="html/d95c4ca2-63dd-2b59-7a75-bf564a6cd001.htm" />
+        <HelpTOCNode Title="responsable Property " Url="html/1822f9ad-a4d8-ee5d-b4ce-0e5e480e17f7.htm" />
+        <HelpTOCNode Title="SchemaSerializationMode Property " Url="html/462ca838-9bed-279d-26d9-e28a35c09e67.htm" />
+        <HelpTOCNode Title="service Property " Url="html/0a6bc751-54a6-a813-7c78-4223a07bc2e9.htm" />
+        <HelpTOCNode Title="Tables Property " Url="html/1fa299ae-2fc5-9ed8-2170-d24820c070a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="88baf8d1-cebc-4c88-8f72-51bde90aad79" Title="projetcnedDataSet Methods" Url="html/318901ea-4608-5ef4-b1dc-67fba9bbd4b8.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/0e9c3ecb-0095-23fb-72e9-22112ca80c52.htm" />
+        <HelpTOCNode Title="GetSchemaSerializable Method " Url="html/713cc90a-6918-1997-c616-a1cf8c103bd9.htm" />
+        <HelpTOCNode Title="GetTypedDataSetSchema Method " Url="html/64d4d174-e99e-2e58-5116-cfd992900984.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/5f18a9f6-0304-6565-9f95-6e44757cbd31.htm" />
+        <HelpTOCNode Title="InitializeDerivedDataSet Method " Url="html/27508d07-1102-15c6-6257-060dd8542df0.htm" />
+        <HelpTOCNode Id="a84c1ffa-fed8-47ca-a2c0-bb3d10fcf618" Title="InitVars Method " Url="html/f09a44d2-4fd2-1be8-d18a-c0d8fb41f14c.htm">
+          <HelpTOCNode Title="InitVars Method " Url="html/8068790a-fcad-b52f-78aa-eda9479d458f.htm" />
+          <HelpTOCNode Title="InitVars Method (Boolean)" Url="html/fd4e8db7-c16f-2893-f584-f17ddb648ec6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReadXmlSerializable Method " Url="html/99525947-0349-0012-3f82-516dd0020635.htm" />
+        <HelpTOCNode Title="SchemaChanged Method " Url="html/9a681f01-69b2-ce7c-5576-bff891bb5017.htm" />
+        <HelpTOCNode Title="ShouldSerializeabsence Method " Url="html/88c2001f-3af6-c41c-3c52-9dbca23a4820.htm" />
+        <HelpTOCNode Title="ShouldSerializemotif Method " Url="html/a2305226-7c2a-8436-4c9d-e9a51e5a1387.htm" />
+        <HelpTOCNode Title="ShouldSerializepersonnel Method " Url="html/1e92ba26-4d8e-5c5b-3a35-c0ebbf1999b6.htm" />
+        <HelpTOCNode Title="ShouldSerializeRelations Method " Url="html/1013f492-134f-dc1c-20f8-333a701e97f4.htm" />
+        <HelpTOCNode Title="ShouldSerializeresponsable Method " Url="html/0c9b76a0-333c-cc25-3e47-e6b48c7ac0ed.htm" />
+        <HelpTOCNode Title="ShouldSerializeservice Method " Url="html/173d3e84-5056-46d4-661e-c80f0238fcfe.htm" />
+        <HelpTOCNode Title="ShouldSerializeTables Method " Url="html/e5f76f95-ef4f-2a7f-1315-8a567476ab95.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="projetcnedDataSet Events" Url="html/88b7dcc5-b015-30a9-e228-97c7db70e2c1.htm" />
+      <HelpTOCNode Id="b3237163-2b83-415b-8108-b22eede8da13" Title="projetcnedDataSet Fields" Url="html/60f8321e-4f9e-8ec0-54b9-2c670945b913.htm">
+        <HelpTOCNode Title="_schemaSerializationMode Field" Url="html/b1a89253-b0c2-73d5-8ad0-ae0151401da8.htm" />
+        <HelpTOCNode Title="tableabsence Field" Url="html/6b6ae9fa-811b-1a9f-4023-b31d1c90f3a9.htm" />
+        <HelpTOCNode Title="tablemotif Field" Url="html/f9fc3706-0036-5dc7-6bde-6ac61a6a13fb.htm" />
+        <HelpTOCNode Title="tablepersonnel Field" Url="html/f8c2919b-2046-bfec-91c6-87e8ba26e739.htm" />
+        <HelpTOCNode Title="tableresponsable Field" Url="html/18b49ad3-5723-2aa9-b3d2-4f55d8aa073e.htm" />
+        <HelpTOCNode Title="tableservice Field" Url="html/678c095a-7d9e-8491-f4a2-c54b7ef2ffc2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="31185674-7bf0-4018-b029-3ca3f8c9e8e9" Title="projetcnedDataSet.absenceDataTable Class" Url="html/e717f266-cd9f-b2df-6374-71dad47a9b9c.htm">
+      <HelpTOCNode Id="1ce0fcd5-ecfa-451c-9b28-32b457779a86" Title="absenceDataTable Constructor " Url="html/469bf1aa-353a-fcc6-836a-f53341c84fdc.htm">
+        <HelpTOCNode Title="projetcnedDataSet.absenceDataTable Constructor " Url="html/229f4ded-9628-ad4b-db90-88a5302852a4.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.absenceDataTable Constructor (DataTable)" Url="html/14889d7b-cf4b-e0b4-e51c-5d2b97ca4a71.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.absenceDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/9a3b275e-f7b5-8965-b9af-10fc3db2ec62.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e0f2fe93-0bb3-4685-a148-d68074f131ec" Title="absenceDataTable Properties" Url="html/b570f2c8-2d15-6377-42a9-0f61d8e4ef4b.htm">
+        <HelpTOCNode Title="Count Property " Url="html/02586f6d-18a4-4c40-250c-6f9b062ec3dc.htm" />
+        <HelpTOCNode Title="DATEDEBUTColumn Property " Url="html/92c8a3ec-0ba2-3b79-96db-56a6c8268d13.htm" />
+        <HelpTOCNode Title="DATEFINColumn Property " Url="html/9119fefe-26f4-1661-12b3-8e6311d6ee5c.htm" />
+        <HelpTOCNode Title="IDMOTIFColumn Property " Url="html/7a6346fe-744c-3311-8546-d4389c1826e9.htm" />
+        <HelpTOCNode Title="IDPERSONNELColumn Property " Url="html/51114138-2f6c-d982-e253-ee454f7cf8fc.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/31b40690-baa6-5b93-b45e-ed81fefec003.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8ceb5faa-4720-40ee-97d6-00d8e82b918e" Title="absenceDataTable Methods" Url="html/80f385c3-a7c5-4b85-a355-895901780e5c.htm">
+        <HelpTOCNode Id="a5bb0a52-5d41-4335-80c4-8ca604779f22" Title="AddabsenceRow Method " Url="html/2b9bf765-9f17-92e7-e309-095f7910dc95.htm">
+          <HelpTOCNode Title="AddabsenceRow Method (projetcnedDataSet.absenceRow)" Url="html/589385e0-917d-3389-3e86-3d981ae9c36f.htm" />
+          <HelpTOCNode Title="AddabsenceRow Method (Int32, DateTime, Int32, DateTime)" Url="html/ec0aab7d-6fc5-ac2d-8c89-745acc20453a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9dae364e-4968-4841-8505-c953eade5993" Title="Clone Method " Url="html/2ebe40b1-4105-838d-6d61-685d431a62d3.htm">
+          <HelpTOCNode Title="Clone Method " Url="html/48ed8245-6cb4-4670-c60c-3c83424a1642.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateInstance Method " Url="html/03f44d36-24e7-a1d7-4561-fdfc6c332793.htm" />
+        <HelpTOCNode Title="FindByIDPERSONNELDATEDEBUT Method " Url="html/a02a8d37-db5a-b603-285f-0e2b95166721.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/32b7fe1b-fcbb-3d9f-ec93-8444de66ab91.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/958a6ce3-1cb1-654e-b4f8-8c6174f78906.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/0fbe41e8-b3c4-46e2-fee1-c70cfceba953.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/2fc73c7c-e64e-52db-ebf4-848121375ded.htm" />
+        <HelpTOCNode Title="NewabsenceRow Method " Url="html/74edd40a-6816-e63a-8f07-a215a93b0461.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/61809d78-8764-81c0-ca48-9f37649ffbc3.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/b3eac41d-355d-1164-f08c-b9f166d38b43.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/b393b895-dc63-05b6-4308-e8f426c38e4c.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/5b92036c-5012-4931-192a-fb5984babf02.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/e5b9fdfa-28aa-3fc1-7d10-8bab4fe8417e.htm" />
+        <HelpTOCNode Title="RemoveabsenceRow Method " Url="html/6685c726-da39-e94d-c3da-0446d55749ff.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e6d7f0e-22fa-46ec-b8c6-ef5d0c2f4cbe" Title="absenceDataTable Events" Url="html/8b7ed540-af86-51f9-8dbd-e5915e49f26b.htm">
+        <HelpTOCNode Title="absenceRowChanged Event" Url="html/4ec3385f-b0b4-36e4-c43b-927f35caaba3.htm" />
+        <HelpTOCNode Title="absenceRowChanging Event" Url="html/45bb8c0d-0069-a9ae-ecab-d25dbbabf34c.htm" />
+        <HelpTOCNode Title="absenceRowDeleted Event" Url="html/aa96344d-d6c8-b239-3552-d98a76097f87.htm" />
+        <HelpTOCNode Title="absenceRowDeleting Event" Url="html/a133ee16-8b7a-9611-c386-6bb3ecbdfddd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f68fe392-7186-4830-ab07-d1ea1327d722" Title="absenceDataTable Fields" Url="html/47ce352b-a547-e200-4ff2-ca50a07d6e8d.htm">
+        <HelpTOCNode Title="columnDATEDEBUT Field" Url="html/f9fbe592-d61d-d87e-1013-601e5cf46143.htm" />
+        <HelpTOCNode Title="columnDATEFIN Field" Url="html/14fc7dac-396e-2c1f-6327-0f971844f430.htm" />
+        <HelpTOCNode Title="columnIDMOTIF Field" Url="html/81c6e3fc-e9d5-a1e0-e18d-3fd75477561a.htm" />
+        <HelpTOCNode Title="columnIDPERSONNEL Field" Url="html/f62241b9-0e88-e14c-0923-6d15fee88baf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c260586-51ce-464b-97fe-8ceb963c8fec" Title="projetcnedDataSet.absenceRow Class" Url="html/41cc652b-7d3e-a110-4cb1-0e4a9d9dcd99.htm">
+      <HelpTOCNode Title="projetcnedDataSet.absenceRow Constructor " Url="html/367449d5-1a43-402b-3e06-c4b565a2000e.htm" />
+      <HelpTOCNode Id="2680e123-20ba-4c33-9df0-567826665f52" Title="absenceRow Properties" Url="html/c65fa5fa-37aa-9e88-8c7e-60fccd7d498a.htm">
+        <HelpTOCNode Title="DATEDEBUT Property " Url="html/6e42a06c-040b-bbea-799a-f20b10301349.htm" />
+        <HelpTOCNode Title="DATEFIN Property " Url="html/7b1f2a5e-e724-5597-d0d7-be1a15096b9a.htm" />
+        <HelpTOCNode Title="IDMOTIF Property " Url="html/db76e67f-7094-06e4-9aff-7f326dedeba9.htm" />
+        <HelpTOCNode Title="IDPERSONNEL Property " Url="html/a85120ee-3346-4b73-dbf3-9c72e735c29d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe3c45e1-9e6c-4fcb-811e-937e9734d7f1" Title="absenceRow Methods" Url="html/fa3a16c7-3049-61a9-0284-34b97f252d18.htm">
+        <HelpTOCNode Title="IsDATEFINNull Method " Url="html/542b58f1-5e11-ce3d-14df-6525945a1f61.htm" />
+        <HelpTOCNode Title="SetDATEFINNull Method " Url="html/140a090e-5613-d790-fe97-f2ea02abf5f9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf1aa2c1-5e16-4fc2-b648-3ba4fa30582c" Title="absenceRow Fields" Url="html/a919d178-dfeb-514f-4f45-06cc5e47bc9f.htm">
+        <HelpTOCNode Title="tableabsence Field" Url="html/c536193e-a57b-d249-4c5e-3373b3ec61be.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="89088e15-cae9-4a15-a8a4-4f2e80e50e17" Title="projetcnedDataSet.absenceRowChangeEvent Class" Url="html/808cd818-b5f1-6663-eb01-43a4fc892fec.htm">
+      <HelpTOCNode Title="projetcnedDataSet.absenceRowChangeEvent Constructor " Url="html/c4d5c9e6-d75f-61b6-2a9b-3fdbd3455eeb.htm" />
+      <HelpTOCNode Id="24b83a89-0032-4de4-a620-abf79efd2d94" Title="absenceRowChangeEvent Properties" Url="html/45bfb85e-01a1-961e-dbad-aeebd5500805.htm">
+        <HelpTOCNode Title="Action Property " Url="html/5da4d310-723f-e495-1ce4-2e7bb9aab167.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/04c07e80-48fe-6b44-5be6-294c334ca057.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="absenceRowChangeEvent Methods" Url="html/1cbb8c83-b1be-d325-70a9-86eb6e735a0f.htm" />
+      <HelpTOCNode Id="74512438-4ed8-4fd1-bdc0-a506a6ed67e8" Title="absenceRowChangeEvent Fields" Url="html/cb9f466b-94ac-e505-87af-90655605b4a3.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/87290e6c-1b6e-2656-2520-54d6855ec9b8.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/237f7b7c-1c97-a1af-dff0-1c22f038f494.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="projetcnedDataSet.absenceRowChangeEventHandler Delegate" Url="html/5db0cd44-3504-6f45-6f12-fff9b5df19e0.htm" />
+    <HelpTOCNode Id="dfab8537-c3a9-4405-ab88-dfc880f6c0bf" Title="projetcnedDataSet.motifDataTable Class" Url="html/f9243549-99f3-ebf3-c4d4-7bc4d762dd41.htm">
+      <HelpTOCNode Id="a1b618b3-847b-4570-bb41-1681b5b7ac7d" Title="motifDataTable Constructor " Url="html/34308466-07ff-216e-7a70-6f0b9fd942ba.htm">
+        <HelpTOCNode Title="projetcnedDataSet.motifDataTable Constructor " Url="html/64e2b569-1c7d-37e8-7946-2312f3fb8859.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.motifDataTable Constructor (DataTable)" Url="html/4d0141bc-0374-2617-4321-934736b1fdc5.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.motifDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/bb3a9b5a-ace1-a109-7324-44b70e22d74e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0eb07a47-26e8-432a-a269-985ef70faca2" Title="motifDataTable Properties" Url="html/cf11818a-a070-117e-30c5-2ea995466dd0.htm">
+        <HelpTOCNode Title="Count Property " Url="html/250cca0f-f103-7d97-e273-c549cb6183f6.htm" />
+        <HelpTOCNode Title="IDMOTIFColumn Property " Url="html/7bb24ec7-b81f-7e1d-3774-ffc83a4827ca.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/0e831165-f521-d78a-584b-5b56011fde90.htm" />
+        <HelpTOCNode Title="LIBELLEColumn Property " Url="html/9e32dfaa-bcef-b77b-11c7-77b98e136e78.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f8de759-0d69-418f-ab70-09a6e44bb4d7" Title="motifDataTable Methods" Url="html/0223da42-748f-11a4-9fd8-9b38a9e9cfd5.htm">
+        <HelpTOCNode Id="e6815cf0-be35-4248-8946-1625a1087828" Title="AddmotifRow Method " Url="html/077e162c-7613-75ab-4f2b-d386bc38d071.htm">
+          <HelpTOCNode Title="AddmotifRow Method (String)" Url="html/70b5be8e-0024-1737-1db8-f9ceca410852.htm" />
+          <HelpTOCNode Title="AddmotifRow Method (projetcnedDataSet.motifRow)" Url="html/b1d7def1-c799-e6ee-ec2e-e078870f11ba.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d5d429b-a790-4480-a75a-2e5d763a0ed5" Title="Clone Method " Url="html/3d638353-f07e-c4ac-c3df-3ed234723842.htm">
+          <HelpTOCNode Title="Clone Method " Url="html/6e13e745-271c-4389-0c77-ddce219a7cb4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateInstance Method " Url="html/03e859f9-eba9-54f1-82bb-97f1dbf62be5.htm" />
+        <HelpTOCNode Title="FindByIDMOTIF Method " Url="html/5c406e2f-8fb2-131b-de6b-1f91c086239f.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/7d2867f8-cc9a-2581-7398-54f610d97ca0.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/07c0e331-3a2d-072e-9c6b-b77d31904af0.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/9997936b-547b-27ce-0291-24b279bdebc0.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/5be65d81-32f3-fd1d-0b9f-b60893bdc01b.htm" />
+        <HelpTOCNode Title="NewmotifRow Method " Url="html/9edde39c-102c-5a15-aaa6-8d387d06cf7b.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/8429c803-245e-428a-9b1a-3599c22066f9.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/f7e97efd-069f-52e5-65a8-4af3bab96e65.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/2c85ae95-fd2e-c095-196e-2bf4eff5c7f1.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/a321b513-cbf6-ecbc-bb7d-94ffbbef364b.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/3a28c01b-5a77-dfa9-563c-519a0ef3004e.htm" />
+        <HelpTOCNode Title="RemovemotifRow Method " Url="html/e4847df1-cfcd-0043-7654-eaa8d02d0783.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9501a6b0-4e3d-417b-997a-c18bb5f87702" Title="motifDataTable Events" Url="html/9d024718-3a1c-9a8d-c80c-d5a1ff1c5d86.htm">
+        <HelpTOCNode Title="motifRowChanged Event" Url="html/1d7cbc14-362b-e29a-1819-a738964d2284.htm" />
+        <HelpTOCNode Title="motifRowChanging Event" Url="html/1702df30-c87a-5daf-f97d-1fff2165511e.htm" />
+        <HelpTOCNode Title="motifRowDeleted Event" Url="html/fad81b27-3e04-4c17-5ac0-8edb892c0777.htm" />
+        <HelpTOCNode Title="motifRowDeleting Event" Url="html/b7d4bedd-47f9-96b0-c9af-946caf549aa3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8778788e-2c77-43ca-bd45-aa6a91f0c3ea" Title="motifDataTable Fields" Url="html/33b03907-2ade-9280-2764-12f1b7dfd763.htm">
+        <HelpTOCNode Title="columnIDMOTIF Field" Url="html/a9310463-a3c0-b393-7dbd-61a9673ff897.htm" />
+        <HelpTOCNode Title="columnLIBELLE Field" Url="html/3a230b1f-d90e-a52d-c49d-c3b48f8fd807.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="98257fa7-eb07-4b3c-bb20-e35b061f41d4" Title="projetcnedDataSet.motifRow Class" Url="html/46966df8-0b72-1136-f43f-a1a25b73cbae.htm">
+      <HelpTOCNode Title="projetcnedDataSet.motifRow Constructor " Url="html/a96a6f7f-7b13-9308-d13c-168b450fdaeb.htm" />
+      <HelpTOCNode Id="3316cef9-572b-44e0-886b-a16e1e979a9d" Title="motifRow Properties" Url="html/6809f795-bea7-22d8-8b91-3eb5f30ac6d4.htm">
+        <HelpTOCNode Title="IDMOTIF Property " Url="html/da51de63-1ac5-bdfc-03d3-d47e7f15a4cd.htm" />
+        <HelpTOCNode Title="LIBELLE Property " Url="html/d7a7f7fd-6cbd-7019-b23c-bfcaee8bc716.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="af54d513-1ad0-47fd-bdcb-7275c929fbbe" Title="motifRow Methods" Url="html/6ee5cb22-278e-0d3e-3565-ce025c2d0f7b.htm">
+        <HelpTOCNode Title="IsLIBELLENull Method " Url="html/a3fbab52-8bb6-9b78-c337-d98d046d5fc9.htm" />
+        <HelpTOCNode Title="SetLIBELLENull Method " Url="html/6a6fbba4-dd6b-a509-4f08-5f22bad2310c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e8b68266-1c41-42ee-b3bf-1089ee421fd6" Title="motifRow Fields" Url="html/f3d73fdd-8d50-aa40-3966-61ca66ea966a.htm">
+        <HelpTOCNode Title="tablemotif Field" Url="html/12bd4fe8-6d1a-f004-0968-19707eb1bc6c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="69b91b13-dcaa-4895-8f6d-510871911927" Title="projetcnedDataSet.motifRowChangeEvent Class" Url="html/ab68e758-85d2-612b-956c-5d80433d9009.htm">
+      <HelpTOCNode Title="projetcnedDataSet.motifRowChangeEvent Constructor " Url="html/6030dfc3-7182-e981-a574-3edcc7f34e67.htm" />
+      <HelpTOCNode Id="682e9727-5944-42e1-a5ea-b9720650e4bd" Title="motifRowChangeEvent Properties" Url="html/3bce34b6-d439-cf67-3c4a-79e3d1a55bed.htm">
+        <HelpTOCNode Title="Action Property " Url="html/f61a2b5b-265b-8c2f-f878-7cd372ba018d.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/e1ba3f1e-c8b9-19b7-7020-534255d4cb6d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="motifRowChangeEvent Methods" Url="html/cf3e15b0-1f6a-8d19-fd76-a860fd912f42.htm" />
+      <HelpTOCNode Id="50118c27-f844-4554-aa23-7f2fba2d3907" Title="motifRowChangeEvent Fields" Url="html/a62f6e79-7fb4-9f5e-87de-655784d2e745.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/86c7900a-e78f-b9ae-34d9-f97651ace50f.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/f48f2f30-e57a-3bb9-6159-8adb83fab641.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="projetcnedDataSet.motifRowChangeEventHandler Delegate" Url="html/606f0ff8-78db-c877-5698-32c5f4bd0c5c.htm" />
+    <HelpTOCNode Id="7b8e11b8-6797-429e-8ee7-f505bc671667" Title="projetcnedDataSet.personnelDataTable Class" Url="html/a3da2cd5-e758-f1c4-de5b-b1259c34eb95.htm">
+      <HelpTOCNode Id="aa4b4f95-0933-4505-b1dd-b40280a4741e" Title="personnelDataTable Constructor " Url="html/8534253b-2ab0-8b42-8b0d-73bac6b2ef08.htm">
+        <HelpTOCNode Title="projetcnedDataSet.personnelDataTable Constructor " Url="html/858f3b3c-febe-7721-be74-04cb0dd4d1b2.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.personnelDataTable Constructor (DataTable)" Url="html/94d545cd-3aeb-c7ca-0944-fe083ce5dc77.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.personnelDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/cd44bbf1-64ea-b830-6ddb-1a18c3004c28.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9500538d-5cdf-4e2a-a018-323eb690b245" Title="personnelDataTable Properties" Url="html/78cb997c-9e5e-fe09-5bc1-77d6f71627d4.htm">
+        <HelpTOCNode Title="Count Property " Url="html/4211bdcf-4b0b-f7a7-c013-90009edf271d.htm" />
+        <HelpTOCNode Title="IDPERSONNELColumn Property " Url="html/33f3a4b7-f25a-8ba8-e066-922ed4b08524.htm" />
+        <HelpTOCNode Title="IDSERVICEColumn Property " Url="html/ae808cb2-2fd5-66e8-307a-002f96682a67.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/5c619dcb-4bea-df08-7d9f-c2747dea67de.htm" />
+        <HelpTOCNode Title="MAILColumn Property " Url="html/a13786b7-bc33-2f44-ae0a-413c5826ec08.htm" />
+        <HelpTOCNode Title="NOMColumn Property " Url="html/d0ed3a30-45d0-e645-d269-acc7fb487551.htm" />
+        <HelpTOCNode Title="PRENOMColumn Property " Url="html/c6d0064b-61d1-3b5d-851c-4014df2f937e.htm" />
+        <HelpTOCNode Title="TELColumn Property " Url="html/ba620e72-f7aa-fd18-20a0-1c44c62237d8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="96f8cf70-32ae-4820-a1c1-41967c5ce860" Title="personnelDataTable Methods" Url="html/8e2652c2-efab-1f5f-6619-b4702ec6b4f0.htm">
+        <HelpTOCNode Id="4b25b06c-b033-45ab-90df-1dc0191584bd" Title="AddpersonnelRow Method " Url="html/d83b27dd-a83d-af0f-7911-9283e8618908.htm">
+          <HelpTOCNode Title="AddpersonnelRow Method (projetcnedDataSet.personnelRow)" Url="html/ec4f37cc-4633-cd39-fb43-c36313083afc.htm" />
+          <HelpTOCNode Title="AddpersonnelRow Method (Int32, String, String, String, String)" Url="html/d95c00e3-c1c3-c743-f04a-e6dae74f63d6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6c1e8cf5-6ced-4cde-9c31-2d5b20301a5a" Title="Clone Method " Url="html/28c6cee4-49a5-86e6-877b-578e7125d37d.htm">
+          <HelpTOCNode Title="Clone Method " Url="html/c243c1e3-48be-76d5-6122-5942a0086047.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateInstance Method " Url="html/a4895b68-e5b0-5cfd-1f8e-9bc137d98173.htm" />
+        <HelpTOCNode Title="FindByIDPERSONNEL Method " Url="html/b0e439f8-c6d8-ccb6-fb30-10dbfcbb5262.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/b0e2e2f8-8c68-4edc-a672-16054169c638.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/10831bf6-554a-106c-7fd3-0069293954aa.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/2def4d5d-f72b-6749-74bc-75ef83627ac5.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/3ebde58c-bc8c-f6da-b239-6d10734015a5.htm" />
+        <HelpTOCNode Title="NewpersonnelRow Method " Url="html/e9b8d48c-52ae-0019-78cd-89d57b91f84a.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/d035d5a5-73a0-560f-d73b-0ecfda8d0ab4.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/8e8d35af-95ef-7e24-3b6c-6170a50dc847.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/a92a0976-b3f8-d9c1-2e67-5b8a1a039f4f.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/e99fe095-d264-986e-80a2-71d7aed0e381.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/6bbcc0f9-f0d7-9f46-e3c2-8684e01d3798.htm" />
+        <HelpTOCNode Title="RemovepersonnelRow Method " Url="html/75810eb7-9c53-0f63-3385-6b4d47e917fd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="816215e9-5619-4139-a213-9b0a9cd5c04b" Title="personnelDataTable Events" Url="html/f341d4c0-9999-b312-8c00-c7bb59bbdd9e.htm">
+        <HelpTOCNode Title="personnelRowChanged Event" Url="html/bca6fe54-efc0-44e8-fd9f-d2de03e6cc7c.htm" />
+        <HelpTOCNode Title="personnelRowChanging Event" Url="html/bbc67913-5513-21b0-2373-038308f1baa8.htm" />
+        <HelpTOCNode Title="personnelRowDeleted Event" Url="html/ea2bfbef-f6df-2b79-ac79-c86ae723c129.htm" />
+        <HelpTOCNode Title="personnelRowDeleting Event" Url="html/fd900f29-255b-2faa-3a8b-8389a2a2c54d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="917e640d-7042-40b0-98d6-7229cc3ee286" Title="personnelDataTable Fields" Url="html/ab4ff159-4a0b-596f-87b5-17994e2716a2.htm">
+        <HelpTOCNode Title="columnIDPERSONNEL Field" Url="html/032aa24d-40fc-7cba-4b1a-212c0953c75f.htm" />
+        <HelpTOCNode Title="columnIDSERVICE Field" Url="html/7a9c00e2-0f25-a228-ce07-f29b0a2c95ee.htm" />
+        <HelpTOCNode Title="columnMAIL Field" Url="html/fed343ea-8d8d-e9aa-bb93-22b02062cd5e.htm" />
+        <HelpTOCNode Title="columnNOM Field" Url="html/47efc657-892e-571f-01f8-fc46a93a2105.htm" />
+        <HelpTOCNode Title="columnPRENOM Field" Url="html/5955a566-873c-74af-6111-54df846c2cfd.htm" />
+        <HelpTOCNode Title="columnTEL Field" Url="html/4f788fb9-e0b1-4409-0f0f-e1356bb3f353.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ea7955e-bef5-45d2-afed-8559d8277546" Title="projetcnedDataSet.personnelRow Class" Url="html/df13673e-8767-64e9-a54f-7965dfb2b29a.htm">
+      <HelpTOCNode Title="projetcnedDataSet.personnelRow Constructor " Url="html/e26389cf-0a07-c293-f50a-cec0957990c5.htm" />
+      <HelpTOCNode Id="a809af23-98a1-4ebe-bd43-6a9453e50068" Title="personnelRow Properties" Url="html/e64f1627-91cb-bb0d-ed08-54016eef6dbe.htm">
+        <HelpTOCNode Title="IDPERSONNEL Property " Url="html/1ffbfeef-a004-3132-334a-3816d444602a.htm" />
+        <HelpTOCNode Title="IDSERVICE Property " Url="html/755626d0-1922-c241-82c6-db77c85ddf56.htm" />
+        <HelpTOCNode Title="MAIL Property " Url="html/928980ff-f6f3-abff-4776-dcc907b55cb1.htm" />
+        <HelpTOCNode Title="NOM Property " Url="html/c2e8d4a9-0c21-379d-62fe-97e27800a7cb.htm" />
+        <HelpTOCNode Title="PRENOM Property " Url="html/41c9c1a7-9bfc-7808-52e8-256d8815bd86.htm" />
+        <HelpTOCNode Title="TEL Property " Url="html/78b5dc77-215a-03ce-a833-4afb5298adb9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d1a4e46-eaae-41f2-8828-7b04df4602e7" Title="personnelRow Methods" Url="html/390fc188-2c25-13c1-cb17-5b110dd20ac0.htm">
+        <HelpTOCNode Title="IsMAILNull Method " Url="html/ab81807d-c5cf-80d1-3361-d1c676d2e298.htm" />
+        <HelpTOCNode Title="IsNOMNull Method " Url="html/ce4cdf42-e3e0-0b2b-3632-506f520d531e.htm" />
+        <HelpTOCNode Title="IsPRENOMNull Method " Url="html/028f6445-bf14-3203-249f-c7bca06e6838.htm" />
+        <HelpTOCNode Title="IsTELNull Method " Url="html/72ab7bb5-9cad-5a97-e458-78a491f97d2e.htm" />
+        <HelpTOCNode Title="SetMAILNull Method " Url="html/046747bf-0838-dee5-bb97-37b935d24ef4.htm" />
+        <HelpTOCNode Title="SetNOMNull Method " Url="html/86eb07cb-5ba9-de3d-e4ea-e667a9e8ef10.htm" />
+        <HelpTOCNode Title="SetPRENOMNull Method " Url="html/2be0ca68-20d9-11e8-8854-4ff0a24b4305.htm" />
+        <HelpTOCNode Title="SetTELNull Method " Url="html/c7e31317-0d63-e811-e5f6-6c3272a51a28.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8c60ca56-eec4-4571-b753-a601b9f26e2c" Title="personnelRow Fields" Url="html/23111a00-b596-9dbe-d1d6-18e91f81ed07.htm">
+        <HelpTOCNode Title="tablepersonnel Field" Url="html/97e26603-0fa6-a45a-3398-3d61a3df1e40.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da80b80f-5233-421a-ae1f-aaf17bc0a917" Title="projetcnedDataSet.personnelRowChangeEvent Class" Url="html/5379c5e2-638d-696a-3739-69ebeb15e13f.htm">
+      <HelpTOCNode Title="projetcnedDataSet.personnelRowChangeEvent Constructor " Url="html/71fe9ddb-f6fc-5a50-7d82-56fb0070bbd3.htm" />
+      <HelpTOCNode Id="3a8bd77c-d0fa-4953-9238-9f08c9fa050b" Title="personnelRowChangeEvent Properties" Url="html/790fe440-8c1b-2a06-2f24-dcf77e3aa4c1.htm">
+        <HelpTOCNode Title="Action Property " Url="html/cc7e6906-6bcd-efed-9ace-4d0fe05ece2d.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/ac3e6ec8-b77c-c03f-ea22-90729cdf9f9e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="personnelRowChangeEvent Methods" Url="html/acd0f5cc-fb0b-7d7e-7f1b-38b88e661a4f.htm" />
+      <HelpTOCNode Id="185c2f28-d9a2-45b2-9883-addf0bf08cd9" Title="personnelRowChangeEvent Fields" Url="html/ef0587ca-f553-0795-a217-82296a3d62a7.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/68796df1-319f-a85f-17d2-e117939ec65b.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/aa9b83df-3118-fd4d-613b-80b7e0f71e2e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="projetcnedDataSet.personnelRowChangeEventHandler Delegate" Url="html/594456e8-9904-1c17-1f25-35d3601b933d.htm" />
+    <HelpTOCNode Id="04a9604a-e0ab-43d3-83f1-04abc8704a8d" Title="projetcnedDataSet.responsableDataTable Class" Url="html/3b1d11ff-6104-4ae8-f29e-6ba535f77ba9.htm">
+      <HelpTOCNode Id="3cfd5b13-81e6-4ce2-b655-b16e84a23073" Title="responsableDataTable Constructor " Url="html/39a73cf1-60ef-da02-5844-e1ba83dbc8c6.htm">
+        <HelpTOCNode Title="projetcnedDataSet.responsableDataTable Constructor " Url="html/8caf7d57-1f24-e68a-2b08-7e8188d96fa6.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.responsableDataTable Constructor (DataTable)" Url="html/b4eab3c5-53df-8444-9988-3db2c59a0441.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.responsableDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/80dfaf94-a87c-10b7-ffd9-4aa915cff097.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="afcb32a6-6b88-472f-9d2a-c39dd2915c9b" Title="responsableDataTable Properties" Url="html/94237a07-205d-467d-2d9f-77e0708fac3b.htm">
+        <HelpTOCNode Title="Count Property " Url="html/3a7c611e-fd5b-833a-89f0-b66512af2ebc.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/f58574d8-011a-5894-a613-2ed9679e866f.htm" />
+        <HelpTOCNode Title="loginColumn Property " Url="html/9e703da6-9402-710b-7e15-9178586936a1.htm" />
+        <HelpTOCNode Title="pwdColumn Property " Url="html/c32a34e9-1c8f-660f-3cb7-19f3a17530e2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="522dbbee-b515-4d01-9a32-bedd3ce20572" Title="responsableDataTable Methods" Url="html/41263ee8-7d66-3c80-acff-0183f2390751.htm">
+        <HelpTOCNode Id="3106a9af-55f0-4535-afe1-d018d4534535" Title="AddresponsableRow Method " Url="html/7507b54b-65ac-13e9-c06a-5cc270f7bf44.htm">
+          <HelpTOCNode Title="AddresponsableRow Method (projetcnedDataSet.responsableRow)" Url="html/69c7eec3-235e-2e5b-3311-a75d4e7092d1.htm" />
+          <HelpTOCNode Title="AddresponsableRow Method (String, String)" Url="html/0bc8e8a9-2762-f008-f8cc-41cb1c3fd803.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ef9cf566-bc8f-4676-8bbd-281711910679" Title="Clone Method " Url="html/82c502bd-7349-6c28-8123-97a85598d1a3.htm">
+          <HelpTOCNode Title="Clone Method " Url="html/51c72f2b-fde5-122e-2dc6-af39f9731f7d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateInstance Method " Url="html/d96c66bc-d89b-10d0-1666-c76a1b123a1e.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/2a876c76-3a57-2788-547f-3163615850d5.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/ccaa3774-a70c-d974-9485-edee8a876aaa.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/ef69fb59-9b19-5c63-66a5-d80bb811707b.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/8d20366b-47fc-df6a-cf68-dd8caedeb7d2.htm" />
+        <HelpTOCNode Title="NewresponsableRow Method " Url="html/31411df3-0092-e1a0-2a9f-99bccddd6727.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/2a1a7d9f-b82e-5a88-8a8e-2b02524cb28d.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/81f2c41c-ec24-8ebb-e758-0e46afbf9aa6.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/cc68ec15-1839-ee56-310f-d666b010a53f.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/83b50b14-f9b5-47a8-eff4-a56eeae0e523.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/cf05f58f-a17a-38d0-b5f2-e4099af6a597.htm" />
+        <HelpTOCNode Title="RemoveresponsableRow Method " Url="html/1cde2f20-09e6-99b8-7fc1-77b102046312.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="32a35a7c-90cf-4421-9e11-daad83029306" Title="responsableDataTable Events" Url="html/acedd89c-03d5-0b52-7187-52b67f8a6ec4.htm">
+        <HelpTOCNode Title="responsableRowChanged Event" Url="html/48044708-b96a-a0c4-aad6-c87bf2ac6d02.htm" />
+        <HelpTOCNode Title="responsableRowChanging Event" Url="html/605609ac-da05-4fa2-ed10-3edfa3ee7baa.htm" />
+        <HelpTOCNode Title="responsableRowDeleted Event" Url="html/69365d15-3603-3941-2459-30b8d94c89a2.htm" />
+        <HelpTOCNode Title="responsableRowDeleting Event" Url="html/93afe111-221c-8b1d-5d07-7ebe78ddd1e8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2574d3a0-e492-4a72-91ec-467f740c35e4" Title="responsableDataTable Fields" Url="html/51684569-f7d9-4a32-9bfd-68374e4bd7dd.htm">
+        <HelpTOCNode Title="columnlogin Field" Url="html/1bb681fb-8332-c3c6-066a-2f765798677f.htm" />
+        <HelpTOCNode Title="columnpwd Field" Url="html/3e87eecd-3a7d-eca4-0323-2fb1dfeeefa7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33d15de9-8c22-49fa-b29f-b8317c3a36b6" Title="projetcnedDataSet.responsableRow Class" Url="html/c3db088f-3e76-8d3f-88ec-097d4fdf5093.htm">
+      <HelpTOCNode Title="projetcnedDataSet.responsableRow Constructor " Url="html/f76ed799-acfc-7a6b-fc64-5f2adbfe6936.htm" />
+      <HelpTOCNode Id="67aeb88a-2814-4364-b056-0eceb3b381e6" Title="responsableRow Properties" Url="html/98a57bae-ad75-a064-972a-a6380dd1d1a0.htm">
+        <HelpTOCNode Title="login Property " Url="html/c28138c9-fcd5-6dfc-857e-dad8267d3dd3.htm" />
+        <HelpTOCNode Title="pwd Property " Url="html/9b74a007-2e9a-3387-985d-779f2d9a1d0d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="responsableRow Methods" Url="html/fed83ea5-5828-9f85-0cde-1b9a81231fc1.htm" />
+      <HelpTOCNode Id="076f940d-6560-446a-ae69-bcd9564a01eb" Title="responsableRow Fields" Url="html/759cd4fd-1d66-8a7d-d37d-b15fb79f7818.htm">
+        <HelpTOCNode Title="tableresponsable Field" Url="html/ed29ba84-9efd-6672-3afd-4468b6308e4c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a96fe143-2db5-43bc-ae9a-f4d09e20b774" Title="projetcnedDataSet.responsableRowChangeEvent Class" Url="html/f927a131-3cb8-3a63-3292-74aa8fd4c562.htm">
+      <HelpTOCNode Title="projetcnedDataSet.responsableRowChangeEvent Constructor " Url="html/1e60766d-a585-04dd-a7e9-a11eff3ae2a0.htm" />
+      <HelpTOCNode Id="709f5cda-abe7-442e-bc01-7937e44c43bc" Title="responsableRowChangeEvent Properties" Url="html/bc543172-c163-4f3f-0900-449c40479fb2.htm">
+        <HelpTOCNode Title="Action Property " Url="html/9cac6079-3232-7c1e-dd27-b2a8c9489da4.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/85d87984-7577-a1e0-9096-cf1545f0a0b7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="responsableRowChangeEvent Methods" Url="html/8f4cc194-10fe-8a79-46d3-2c508040fba0.htm" />
+      <HelpTOCNode Id="cf566b6d-0672-46a8-a9fc-8c8a545cf19b" Title="responsableRowChangeEvent Fields" Url="html/f510948e-f777-3ef4-824e-67aced183747.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/e327a422-894a-ad7e-73ad-ed1b877d4ede.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/e50d82c3-0ddc-0182-c9bb-607b4fa0b194.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="projetcnedDataSet.responsableRowChangeEventHandler Delegate" Url="html/65de87ff-89e1-0511-23f4-3294dfc68db9.htm" />
+    <HelpTOCNode Id="d4b9428e-4fc3-40a7-bbcd-7dcac55fe23d" Title="projetcnedDataSet.serviceDataTable Class" Url="html/94c6a656-f7e4-24ad-2caa-152c33f4d131.htm">
+      <HelpTOCNode Id="e9ab246d-a4f1-468f-a345-0c5a023d94c2" Title="serviceDataTable Constructor " Url="html/65663bc4-f5e2-5a57-8666-f06f5796dddb.htm">
+        <HelpTOCNode Title="projetcnedDataSet.serviceDataTable Constructor " Url="html/333a2561-7ad7-6fb2-d19f-35a3a0fb7008.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.serviceDataTable Constructor (DataTable)" Url="html/a10993ad-e9df-8e99-6ce1-7c2cc23fe216.htm" />
+        <HelpTOCNode Title="projetcnedDataSet.serviceDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/667de490-cd05-9d83-53b8-fa847bd71fdb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b718ee72-c80a-4f77-ab84-2bf2914f409c" Title="serviceDataTable Properties" Url="html/4905125c-1ec9-96d5-a9ee-77e44c15a2b2.htm">
+        <HelpTOCNode Title="Count Property " Url="html/1c7b6e0d-cd86-5627-a2b1-d69b43b490ea.htm" />
+        <HelpTOCNode Title="IDSERVICEColumn Property " Url="html/4523b3f7-90e7-49ee-4b5b-334bebbedfdb.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/b36b43c0-87f6-c0fd-dca3-153909a7c85c.htm" />
+        <HelpTOCNode Title="NOMColumn Property " Url="html/7e5bbd2b-efdc-f0c2-1fb1-92c18b3b5640.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ccc79d3c-6cc4-4dc5-bcb0-8625597775b4" Title="serviceDataTable Methods" Url="html/5a11b97e-a4df-173f-29d4-9ceac26ab82b.htm">
+        <HelpTOCNode Id="b24242c8-2be1-4c3c-a069-cb7f0f61ec9e" Title="AddserviceRow Method " Url="html/2efcfb29-808d-bb28-30ec-7f2abb1f7469.htm">
+          <HelpTOCNode Title="AddserviceRow Method (String)" Url="html/cc946270-28c7-db4f-ca04-6ae22e600e8e.htm" />
+          <HelpTOCNode Title="AddserviceRow Method (projetcnedDataSet.serviceRow)" Url="html/4e210a7f-0fb3-d78d-e0a8-ca8cd063aee4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dadd9745-2b8e-4e52-8cd8-086e555a9827" Title="Clone Method " Url="html/714028a1-bf79-4b6a-d10d-2c442d44073f.htm">
+          <HelpTOCNode Title="Clone Method " Url="html/e63a9d61-4c1a-cf2c-72cf-9bcfc9c11a08.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateInstance Method " Url="html/3485b7fc-027c-3e73-2547-3f29342df9a1.htm" />
+        <HelpTOCNode Title="FindByIDSERVICE Method " Url="html/d8e016e0-c5eb-98f2-5dfb-86cce04f13c0.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/300347ed-4479-470d-2485-da47cf4c0077.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/4f19136c-a7b3-1271-7131-f475ed6bcb22.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/6664696a-b203-6bc4-204d-d3f6cfa3eaef.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/1aee3e62-3720-efd1-62bb-b0ae3752e74c.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/0b8481de-d648-b373-3332-317b807ce3d5.htm" />
+        <HelpTOCNode Title="NewserviceRow Method " Url="html/982d4cc3-1582-f0a3-8649-b5af72ca7a76.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/636ef72c-e43c-f7e1-d5f6-19bcf612cff7.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/81cf5273-186e-e649-0e1d-ee91366d5f3b.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/494572cb-3226-4029-384b-69bccd5aca2b.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/771756d4-f70e-40ce-ee8d-2d90efb0e9e3.htm" />
+        <HelpTOCNode Title="RemoveserviceRow Method " Url="html/e6082623-cc08-43c0-f652-aa7c654f55f0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5d0a1c48-effd-46b0-9a2f-554e3f847968" Title="serviceDataTable Events" Url="html/d95f2647-48cf-b215-b115-36999c38fa27.htm">
+        <HelpTOCNode Title="serviceRowChanged Event" Url="html/bb50d998-8db5-853f-973a-68876d51ba00.htm" />
+        <HelpTOCNode Title="serviceRowChanging Event" Url="html/d4e2bb5e-e4e1-635f-d45c-13cc0574f6fc.htm" />
+        <HelpTOCNode Title="serviceRowDeleted Event" Url="html/5f246519-2b70-af6f-1e40-818f156f5698.htm" />
+        <HelpTOCNode Title="serviceRowDeleting Event" Url="html/749020a9-2e25-1862-1464-88433396ef05.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1c098593-8f35-4428-baee-b050a630857d" Title="serviceDataTable Fields" Url="html/771c8eaa-c9cc-b412-b0ea-def58c1768c6.htm">
+        <HelpTOCNode Title="columnIDSERVICE Field" Url="html/cfed4418-fd1b-11ef-a971-bbfdd4503ef3.htm" />
+        <HelpTOCNode Title="columnNOM Field" Url="html/e80e4680-5c9c-bc20-edd8-e1b3864808cf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="604ab809-fcfb-4945-8e55-62acdda2c416" Title="projetcnedDataSet.serviceRow Class" Url="html/ea11e649-259d-b65c-3d77-a59720e9a5ac.htm">
+      <HelpTOCNode Title="projetcnedDataSet.serviceRow Constructor " Url="html/eb863929-bb59-71eb-f86f-8f83d215a917.htm" />
+      <HelpTOCNode Id="deddbea3-850f-40b0-a096-fd520d507fbb" Title="serviceRow Properties" Url="html/810371ec-7373-02e0-5351-cafb9aaaa616.htm">
+        <HelpTOCNode Title="IDSERVICE Property " Url="html/0c5825ab-a4c8-4fea-03e2-3b27d2f3a921.htm" />
+        <HelpTOCNode Title="NOM Property " Url="html/e15f49d9-bc83-05e5-7ef8-ccca195db073.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0524d13c-04d1-4277-829e-0efefaf7fd2a" Title="serviceRow Methods" Url="html/619e09fb-de7e-86a0-8cc9-9d902cd4074b.htm">
+        <HelpTOCNode Title="IsNOMNull Method " Url="html/fc1d6148-c0c6-d4ba-5ccb-02ed8057766b.htm" />
+        <HelpTOCNode Title="SetNOMNull Method " Url="html/c9819e36-24ed-66ff-cc8c-e4de77103cf7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8b97fab9-c035-4b7e-9d65-c28a3d968851" Title="serviceRow Fields" Url="html/3719d2e7-58e5-157c-e082-52d7316a1da6.htm">
+        <HelpTOCNode Title="tableservice Field" Url="html/090b0b9d-9c56-063a-c3b2-50fc4a50593e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f755cd63-37fd-46f0-afca-d4a6f03fce21" Title="projetcnedDataSet.serviceRowChangeEvent Class" Url="html/fdae57c3-679d-e3d9-482e-622b684784f9.htm">
+      <HelpTOCNode Title="projetcnedDataSet.serviceRowChangeEvent Constructor " Url="html/e833e74b-3da8-1524-3199-620fd440a632.htm" />
+      <HelpTOCNode Id="35d35490-8d27-4d22-9878-3a8c0604e745" Title="serviceRowChangeEvent Properties" Url="html/b841122a-8b93-f264-e117-d106baae80be.htm">
+        <HelpTOCNode Title="Action Property " Url="html/7c2cc2d9-cd66-67a6-dfdd-3ffb2cba115d.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/3637adcb-087c-07fc-1265-e5c4a5c3bd99.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="serviceRowChangeEvent Methods" Url="html/241a58ac-aa0d-5f1e-f5c9-0d3a4e19a984.htm" />
+      <HelpTOCNode Id="d47ac0ca-c150-41b3-a508-3602bc84380a" Title="serviceRowChangeEvent Fields" Url="html/cc06b695-b95d-4cc8-f274-b61d18381440.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/5e7071d5-ea4f-cc76-f328-a73f5149b7e7.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/93a9f690-96f8-5ac8-1822-0e293e12d6e9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="projetcnedDataSet.serviceRowChangeEventHandler Delegate" Url="html/7bdc977f-2c53-a968-a819-fce4c9a00177.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="377a8e47-bbec-479d-9a49-75227cae39d1" Title="ProjetCned.connexion" Url="html/cdc929e3-fd45-be12-cecf-25089276a832.htm">
+    <HelpTOCNode Id="c9674648-b107-401f-9e66-2a90734d5c86" Title="ConnexionBDD Class" Url="html/a8c4d314-c82c-2ab6-1cc2-872b03f1821c.htm">
+      <HelpTOCNode Title="ConnexionBDD Constructor " Url="html/40f9b8ce-71a1-2c4a-18f2-69a5db6a4ce5.htm" />
+      <HelpTOCNode Id="174101a6-1a08-4cde-b07b-a87df6dbfc40" Title="ConnexionBDD Methods" Url="html/c2d0adec-933e-8b60-2c19-271f048b0d7b.htm">
+        <HelpTOCNode Title="Close Method " Url="html/2753fa27-4925-7bfb-ace3-11ba91bbe5ef.htm" />
+        <HelpTOCNode Title="Field Method " Url="html/5b478773-6d82-9dfc-73f9-0d90c6ae80b9.htm" />
+        <HelpTOCNode Title="GetInstance Method " Url="html/6ed4a26c-6ebd-cb6b-7c22-e3ee80ba2c34.htm" />
+        <HelpTOCNode Title="Read Method " Url="html/18cde0c7-7127-0bba-1c71-353a7969011f.htm" />
+        <HelpTOCNode Title="ReqSelect Method " Url="html/962340f5-f205-64b4-8faa-a6f9de7ba60f.htm" />
+        <HelpTOCNode Title="ReqUpdate Method " Url="html/1ee87842-6d46-bf99-4482-0f2943c827c1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="efdda52c-4003-42c4-8ed7-994824cdb7a7" Title="ConnexionBDD Fields" Url="html/05cbd9e4-7926-5dde-84e6-263a705c1ad4.htm">
+        <HelpTOCNode Title="commande Field" Url="html/b91a1cdc-7f2b-3535-75ff-e021358d40b6.htm" />
+        <HelpTOCNode Title="connexion Field" Url="html/d032abbf-ea8c-2541-605b-744dd166fda8.htm" />
+        <HelpTOCNode Title="curseur Field" Url="html/1a316533-01f3-c9e9-16b5-2d067b6f0b4c.htm" />
+        <HelpTOCNode Title="instance Field" Url="html/7c1f8aa8-894b-be11-1930-b704a5eaaf6a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e8fbc9b5-0ad8-4fe6-a701-1c01b3330e92" Title="ProjetCned.controleur" Url="html/7e3897b2-85ad-ecc6-2197-0f3d7727c287.htm">
+    <HelpTOCNode Id="a113a3b8-8315-486a-a366-ad36bc563da6" Title="Controle Class" Url="html/a7c25950-1c5b-7a3f-6ea7-70c32dca882b.htm">
+      <HelpTOCNode Title="Controle Constructor " Url="html/c5c1ed25-72c4-2074-35f9-471f827ceb7a.htm" />
+      <HelpTOCNode Id="408723f8-8ce2-4a43-b274-03380a6ec489" Title="Controle Methods" Url="html/aea76046-2d74-b830-54c2-05dd7e986a1f.htm">
+        <HelpTOCNode Title="AddAbsence Method " Url="html/208ed0f1-c233-d400-9660-b826655fd2c3.htm" />
+        <HelpTOCNode Title="AddPersonnel Method " Url="html/a4047f96-84ab-02c3-de58-bd7901763618.htm" />
+        <HelpTOCNode Title="Authentification Method " Url="html/372d2a50-a52a-5e7c-2d49-782eb0f8d42b.htm" />
+        <HelpTOCNode Title="DelAbs Method " Url="html/f4ca8a41-f8fd-14e9-debf-f1865dd8e3b3.htm" />
+        <HelpTOCNode Title="DelPersonnel Method " Url="html/b834f7dd-ea35-3cbf-8fb0-bc334843bc24.htm" />
+        <HelpTOCNode Title="GetAbsences Method " Url="html/116ac45f-deb1-21c6-1d9d-5eb78ce8b5bf.htm" />
+        <HelpTOCNode Title="GetMotifs Method " Url="html/36dbf755-3f79-1fa0-7ec1-9b601963f80a.htm" />
+        <HelpTOCNode Title="GetPersonnels Method " Url="html/9437b1f3-d75a-eae5-0547-70d3cb56302b.htm" />
+        <HelpTOCNode Title="GetService Method " Url="html/33cb0f69-2af7-05c4-82ff-250385555114.htm" />
+        <HelpTOCNode Title="ModAbs Method " Url="html/f77cadbe-5971-3c55-7560-0e57f7d8073c.htm" />
+        <HelpTOCNode Title="ModAbsdebut Method " Url="html/7fef951f-f861-9177-8533-0a17689d835a.htm" />
+        <HelpTOCNode Title="ModPersonnel Method " Url="html/59ad33a9-9faa-1255-f42b-c432fbe69b4b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="74fdb7c8-09c8-4cfd-a109-7a159d2cba3c" Title="Controle Fields" Url="html/ac78c744-3479-f43a-49e1-4e52c4051c0b.htm">
+        <HelpTOCNode Title="frmConnexion Field" Url="html/0dbb54db-8b11-efe2-5147-548b8a0346bb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7a397d2b-8b6b-4472-b309-7314b16a98ab" Title="ProjetCned.dal" Url="html/2dc3385c-b686-268c-d2b0-59b4bb36b22a.htm">
+    <HelpTOCNode Id="77194f34-3dda-4a98-964c-f37b2510c28c" Title="AccesConnexionBDD Class" Url="html/972b755a-aded-0aad-e9ea-681b53aa964a.htm">
+      <HelpTOCNode Title="AccesConnexionBDD Constructor " Url="html/ffd40ded-9205-bc55-98f8-d2521c6b1ad1.htm" />
+      <HelpTOCNode Title="AccesConnexionBDD Constructor " Url="html/2857257e-8ad7-aba1-e1b0-9bf6a8135e6f.htm" />
+      <HelpTOCNode Id="b4e3206b-b9c8-4f55-97e3-ed41a073d86b" Title="AccesConnexionBDD Methods" Url="html/49651ad1-1085-eb39-9fb8-81faa331c2f7.htm">
+        <HelpTOCNode Title="AddAbsence Method " Url="html/b4cc9b53-469c-2f8c-8947-8491c6574488.htm" />
+        <HelpTOCNode Title="AddPersonnel Method " Url="html/3584f01c-29a2-0dfa-e7af-2807423295df.htm" />
+        <HelpTOCNode Title="Authentification Method " Url="html/84ef91e0-4a79-06bd-f3a4-c615596acdbb.htm" />
+        <HelpTOCNode Title="DelAbs Method " Url="html/358d5cc7-366b-7ca2-fe65-0199f6d1d1ba.htm" />
+        <HelpTOCNode Title="DelPersonnel Method " Url="html/68998b38-b001-ec5e-6f42-217785cd405c.htm" />
+        <HelpTOCNode Title="GetLePersonnel Method " Url="html/c3c10095-2f93-ed73-19ea-3ecd585ae07a.htm" />
+        <HelpTOCNode Title="GetLesAbsences Method " Url="html/3a15b31b-3550-61b8-6098-56a0092891bc.htm" />
+        <HelpTOCNode Title="GetMotif Method " Url="html/40a9d3c7-3774-8008-a673-982497d631a4.htm" />
+        <HelpTOCNode Title="GetService Method " Url="html/3cde24bc-b6ef-76f4-5be2-aa758e1ef686.htm" />
+        <HelpTOCNode Title="ModAbs Method " Url="html/d620be40-7b19-03e0-e6b9-63e12aa0871d.htm" />
+        <HelpTOCNode Title="ModAbsdebut Method " Url="html/b612bc41-580e-df81-a058-d4ede2d854c9.htm" />
+        <HelpTOCNode Title="ModPersonnel Method " Url="html/b6519127-acce-c17a-6989-aa4513ca3ea9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cab5546b-1768-429a-be7e-bf12712da7f8" Title="AccesConnexionBDD Fields" Url="html/6f972d4f-4495-33d5-45ac-2a4fcd73ce26.htm">
+        <HelpTOCNode Title="chaineConnexion Field" Url="html/732bf30f-4654-58c5-65f1-7e8d959a6b7b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="dd42aeeb-07b8-4422-a6cf-19f8ec8887af" Title="ProjetCned.modele" Url="html/feb97dac-b29e-ad99-e4a0-6951c310cf52.htm">
+    <HelpTOCNode Id="274593c9-3360-4bc8-a04b-3ddb7253da44" Title="Absence Class" Url="html/0785d4f9-7c0f-9b2f-1705-23bf272761aa.htm">
+      <HelpTOCNode Title="Absence Constructor " Url="html/67d5eca3-6fe5-3f77-3040-7e139e82f769.htm" />
+      <HelpTOCNode Id="39bfe2b4-c188-4c53-86bc-ba60eb7e63b4" Title="Absence Properties" Url="html/0805ce1b-cdf7-45b2-736e-59f2c9175822.htm">
+        <HelpTOCNode Title="Datedebut Property " Url="html/3f0b9270-6bab-25ed-0e51-9b05e804097e.htm" />
+        <HelpTOCNode Title="Datefin Property " Url="html/c278d265-3d0a-1ebb-0d3e-b7c875ab4138.htm" />
+        <HelpTOCNode Title="Idmotif Property " Url="html/97399d88-06e7-c773-aea7-f65dbf41acaf.htm" />
+        <HelpTOCNode Title="Idpersonnel Property " Url="html/bac0eb29-ac45-1954-c257-b785388db0c5.htm" />
+        <HelpTOCNode Title="Motif Property " Url="html/c0e6d787-cec9-6494-ee63-c5ea038c300d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Absence Methods" Url="html/513e567d-e72b-0b17-0754-6de54d77eb1f.htm" />
+      <HelpTOCNode Id="0893e9e8-96c6-4a40-b5d8-57741dd0c1ad" Title="Absence Fields" Url="html/6c8e508b-1dcc-8a5c-fbeb-35d74cbd23f2.htm">
+        <HelpTOCNode Title="datedebut Field" Url="html/9dad4c2f-b900-282b-0213-70a2b826228e.htm" />
+        <HelpTOCNode Title="datefin Field" Url="html/ad2e2c51-3cf6-c46c-71ff-d1626a787831.htm" />
+        <HelpTOCNode Title="idmotif Field" Url="html/45e0ed87-2ed5-496b-5967-a2557f5b00ad.htm" />
+        <HelpTOCNode Title="idpersonnel Field" Url="html/0f1cfc67-3bb2-b3ef-92d3-56dfff6ebb39.htm" />
+        <HelpTOCNode Title="motif Field" Url="html/7edf6565-424e-65bd-04df-f9cc742e962c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a0dd283-9b53-4c92-8b40-fa268add3379" Title="Motif Class" Url="html/ab2e9afd-d5db-9949-9ad0-76611bf95bcd.htm">
+      <HelpTOCNode Title="Motif Constructor " Url="html/a362f693-6d5f-92de-f7e1-9cc43604d777.htm" />
+      <HelpTOCNode Id="c7a6cbb5-76f9-431c-9019-ac28f6025557" Title="Motif Properties" Url="html/6a4ff2da-bb96-1289-5420-f2364a8fed36.htm">
+        <HelpTOCNode Title="Idmotif Property " Url="html/b25e8cf3-d937-9dd2-0c85-b418f05fd55d.htm" />
+        <HelpTOCNode Title="Libelle Property " Url="html/4be4bdbf-db60-d4e1-cd24-bda782967a5d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d3aff25c-a98b-47b3-94f9-8ad7d6bbbae5" Title="Motif Methods" Url="html/077540c3-2ddc-052a-178c-8e5fdbf51f8f.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/de2488cd-2267-2cf7-6522-b8d5a5a88c85.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5c534a23-4d29-4238-a7c9-77da22c5e68c" Title="Motif Fields" Url="html/dfdda65d-a67a-9a64-e167-8879cdcddde2.htm">
+        <HelpTOCNode Title="idmotif Field" Url="html/f10b09e4-9cad-19df-61be-0ed41b88e549.htm" />
+        <HelpTOCNode Title="libelle Field" Url="html/0e5892f3-6771-d441-90d7-1332e5ed89e5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7283a182-ecc3-4505-bd5b-4ca653e75fb8" Title="Personnel Class" Url="html/e099e272-dc94-5ce8-1164-b14428275540.htm">
+      <HelpTOCNode Title="Personnel Constructor " Url="html/61be78cf-b43c-d098-c90f-ef686c269318.htm" />
+      <HelpTOCNode Id="e2da7e6c-ee41-4341-b2dd-0b0c55af78f7" Title="Personnel Properties" Url="html/b93e3bfe-69e2-cd24-0b5c-555135f823cc.htm">
+        <HelpTOCNode Title="Idpersonnel Property " Url="html/9c888151-afd8-fc42-e54e-d0cb715b45cc.htm" />
+        <HelpTOCNode Title="Idservice Property " Url="html/34183515-9407-22d4-cf57-cc82a0cf934b.htm" />
+        <HelpTOCNode Title="Mail Property " Url="html/8b546a86-7556-18d9-91aa-5e809dead03c.htm" />
+        <HelpTOCNode Title="Nom Property " Url="html/b98dce55-2722-7af7-00a6-dc93a0ee43a6.htm" />
+        <HelpTOCNode Title="Prenom Property " Url="html/33a15d3d-5452-cf92-2c1b-ec6fb70654fa.htm" />
+        <HelpTOCNode Title="Service Property " Url="html/c285597b-40fb-7a5c-af23-e121d2c974e7.htm" />
+        <HelpTOCNode Title="Tel Property " Url="html/0673f70b-73e4-9731-8deb-e80bcae99c12.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Personnel Methods" Url="html/29828046-ade5-18f8-80da-9f3a689393e8.htm" />
+      <HelpTOCNode Id="42fadb1e-e785-4a1e-a5c1-411d757ede1f" Title="Personnel Fields" Url="html/21fd1175-3373-9a14-2e02-33338c6cad74.htm">
+        <HelpTOCNode Title="idpersonnel Field" Url="html/922b676e-bab8-3d28-d7a0-afa32d6c63fe.htm" />
+        <HelpTOCNode Title="idservice Field" Url="html/0f6df14e-ed2a-2ae9-5d50-ec7ebcae5c99.htm" />
+        <HelpTOCNode Title="mail Field" Url="html/a89d7101-4a0b-251c-d70a-bd7ea6e08b06.htm" />
+        <HelpTOCNode Title="nom Field" Url="html/eeff43c6-a666-6c40-16eb-0bc8077546a0.htm" />
+        <HelpTOCNode Title="prenom Field" Url="html/650db3dc-2a5e-3fcb-b7e4-013214734527.htm" />
+        <HelpTOCNode Title="service Field" Url="html/b49b3489-2090-5dff-6439-0867f197454c.htm" />
+        <HelpTOCNode Title="tel Field" Url="html/8887eb05-a160-6eaa-c6a4-13579a2cd305.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a52df3c-8612-4400-9451-d3aa03ebd103" Title="Service Class" Url="html/c69fd488-c4da-bf77-1780-a319eb98b0fb.htm">
+      <HelpTOCNode Title="Service Constructor " Url="html/821ea2b2-9e15-aced-6881-33fa493716e8.htm" />
+      <HelpTOCNode Id="846f8e7b-64d7-40e7-af4e-307d574a2565" Title="Service Properties" Url="html/92d1c613-fa7a-a799-acc2-b61babb64c93.htm">
+        <HelpTOCNode Title="Idservice Property " Url="html/8380e7eb-c9a6-38fb-f34f-4cc5b3623a39.htm" />
+        <HelpTOCNode Title="Nom Property " Url="html/2c6bc562-8476-762b-bb20-ca51a7a60cfa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="da3e54c7-5217-4cbf-b29e-ef8f374b5ff7" Title="Service Methods" Url="html/d1c5f04a-89f5-1573-37b6-aa26f347ce0e.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/b25f8fd0-52d0-97b2-273a-890138abc697.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4c5168c6-c69e-4d8d-837f-7cb66ba4b540" Title="Service Fields" Url="html/cf8bbf2c-5549-20c7-5134-42b0f63b903e.htm">
+        <HelpTOCNode Title="idservice Field" Url="html/36fb50c3-51b7-bd95-6b6a-c0f316c3f197.htm" />
+        <HelpTOCNode Title="nom Field" Url="html/8da15b75-8bae-f5da-33f2-5f189b1396a9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="35399337-3ac3-41c6-8371-22f096a00579" Title="ProjetCned.projetcnedDataSetTableAdapters" Url="html/b2d65ac3-06c3-4e8a-ff5d-e0e9419964f3.htm">
+    <HelpTOCNode Id="4a1e2425-6360-4ecd-b96b-13299127c05e" Title="absenceTableAdapter Class" Url="html/6e107aa1-52c7-d05d-9944-fa99b655842a.htm">
+      <HelpTOCNode Title="absenceTableAdapter Constructor " Url="html/f38dabed-fc95-a2be-ed93-9b482a0233c4.htm" />
+      <HelpTOCNode Id="1c98ffd6-b8b3-47ff-8c8e-405bdb773294" Title="absenceTableAdapter Properties" Url="html/d24b398d-eb45-301b-3364-c7438c8d1e98.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/14160fe9-fdee-2a14-37e7-1afba85fa2e4.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/6898af58-fe07-f54f-b2c7-52b11de14f70.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/ead76cd9-0f41-87e2-575e-80a816ff4b14.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/ee844249-4725-d3f5-d74f-34317fc7537d.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/ef9b1624-4e36-54de-387a-4c101c8615fd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="102fb8d9-12bf-461d-a463-c7bd20940b0a" Title="absenceTableAdapter Methods" Url="html/67fd9b31-c638-0008-ab44-53a89a0929cd.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/e0d65e59-39f3-d7db-2f03-b0d5874d340e.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/c92ae23d-0a4b-948c-cd56-8a2c2562dcca.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/0f34582a-a6ac-2caa-e165-79cb40ebc65e.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/ea78736e-2f75-90ab-31c4-2350b85cd992.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/7da6e6dc-f4c1-dff4-5623-2165c70a5d9b.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/156461a2-999b-f31d-5134-2d712e814228.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/3f7261b9-04b9-0549-69c7-e71e6deecb9c.htm" />
+        <HelpTOCNode Id="e6b45bf4-468e-4a00-af31-7add077c2996" Title="Update Method " Url="html/87a24916-be3c-f0b6-aa88-179228bf3a04.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/0da75794-d00a-929b-cc89-692aa7391adc.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/16545c3d-5614-b335-6d6a-f0436268bb07.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet)" Url="html/30385051-8202-6672-fff1-996d3f884d54.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet.absenceDataTable)" Url="html/8b0f6d90-a293-a5c6-70d0-97641b8cf3b6.htm" />
+          <HelpTOCNode Title="Update Method (Int32, Nullable(DateTime), Int32, DateTime, Int32, Nullable(DateTime))" Url="html/453503b3-e1b9-d449-2b4f-8f249b03d767.htm" />
+          <HelpTOCNode Title="Update Method (Int32, DateTime, Int32, Nullable(DateTime), Int32, DateTime, Int32, Nullable(DateTime))" Url="html/49948df1-c467-f28d-a280-b96d6a6e3b66.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="absenceTableAdapter Events" Url="html/83b91274-4b0c-e90d-b267-70961bcd131b.htm" />
+      <HelpTOCNode Id="2fbb3bb8-022e-4c65-a529-380c399c688b" Title="absenceTableAdapter Fields" Url="html/b7386d57-6e3f-900b-4ba1-f8f22224ef71.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/f4e1ea6f-52c1-18be-95f6-904c207e7eef.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/17250735-f3d9-880f-fcf3-f1d5c4d7f75c.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/7c7d8530-3ea1-fb8a-44e7-424b40e2573a.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/31e6ace9-1636-7afe-3cea-4b96fa798d52.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/c1a99d61-8183-334c-abba-f0985ffca359.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="77dfa073-33ab-4adc-bf63-24455fecfbc5" Title="motifTableAdapter Class" Url="html/cd0289ef-4ef4-450e-b24b-0b769c0c810f.htm">
+      <HelpTOCNode Title="motifTableAdapter Constructor " Url="html/6ea36041-ec6e-7ecf-8d9f-91da13cc34b5.htm" />
+      <HelpTOCNode Id="b86a76c5-8074-4577-b9f6-781a4f7dd521" Title="motifTableAdapter Properties" Url="html/4f46cf8e-631c-3462-0fa8-3e57e52a2e1e.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/49a5ec10-a54a-a960-e1ce-5f1b9ffcc388.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/72e25612-7405-6a7f-be73-f5acdecc90a0.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/dafbaddb-ad89-cef3-b534-6d99ac283c22.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/640fc385-2bcd-c718-0e81-18baa83e37c6.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/68b99fc9-88fd-6951-8f47-19f1c849aa04.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="52729fb1-467c-41da-a27d-7cf0950306e1" Title="motifTableAdapter Methods" Url="html/62852bae-9910-7e3a-fcbd-4181cba27d19.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/92004f0e-6522-b2d2-9475-a853a11ca91f.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/91019afb-2673-3b04-fa4c-41e6cdaa4205.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/64b43f21-ba54-c49d-9dd5-eceb690cfd2b.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/8d4c6ae4-4dbc-80b1-85b4-a76dcdc3495d.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/4e950a26-4b58-f516-6035-2b8299b35326.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/0ff1c06e-81f5-5743-4fd5-0b8084a06158.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/3be1da3b-4a9c-2846-6b77-774e2b758b9d.htm" />
+        <HelpTOCNode Id="b8f23bac-acf0-4889-948c-75797f7da657" Title="Update Method " Url="html/ad094d88-9a92-e65a-0d35-5b7a7e8780ea.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/caf1380c-820c-916e-41e2-f489c3972a7d.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/bb695865-57f1-4653-3336-f1441a758d6f.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet)" Url="html/8cc42364-75ed-f8ad-11ca-1e7454842c82.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet.motifDataTable)" Url="html/1a1bef2d-f966-e812-cfa6-7315004ae57f.htm" />
+          <HelpTOCNode Title="Update Method (String, Int32, String)" Url="html/10531169-34e2-9183-f7f4-abf73ca3495b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="motifTableAdapter Events" Url="html/b858dc20-8c08-9da4-0d94-9ef2c272c3b3.htm" />
+      <HelpTOCNode Id="2c0d98fa-c18a-46ef-b5ee-e6e7646b614a" Title="motifTableAdapter Fields" Url="html/596b6e44-3eba-a775-ba02-310ab12b10c4.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/d70e67c4-d83b-98ef-d93f-5150a87d1ff8.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/90e2e173-9a40-2f68-8cb9-7c56051a476f.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/c779b69f-9cbd-8a3a-2cc0-c6543374bf31.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/cfd4e2f2-decc-cec9-06ca-d4bcba40af79.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/d85dade8-0f32-79f0-dc20-e031dd818c20.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="edb8e0db-b6aa-4f30-a95a-1ad2392e2526" Title="personnelTableAdapter Class" Url="html/f698c9df-a1c0-f3b7-713f-599a2ce046f6.htm">
+      <HelpTOCNode Title="personnelTableAdapter Constructor " Url="html/ec1e89c9-caee-936f-c7c3-0989d2af946a.htm" />
+      <HelpTOCNode Id="9b3f5bd8-fd27-491c-9ddc-04af80a8748a" Title="personnelTableAdapter Properties" Url="html/a55dcf6c-4366-a97c-1ef0-18a7eea171ff.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/77ade415-4488-f0fb-cc98-b97c848e64b7.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/dd0450eb-b0ac-4d5b-3049-7b63c1d01469.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/318c1b8f-f8e5-d197-5f18-dafc69423979.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/a5eb80de-ded1-fdd2-2d09-334fce5ec485.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/cdbf9447-64cf-dfe3-b403-b58ea3239611.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d0565ea3-e338-4850-8e8c-fe2024ed75b6" Title="personnelTableAdapter Methods" Url="html/ecb543b6-f3b8-19b6-e878-e311f5d838e2.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/55a826b4-934c-e75e-9170-92c81db1faac.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/23855fe8-5a17-12e9-e415-0263240ecc03.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/d4b7cb93-bf8c-ced7-fc4c-1728158d92e1.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/9232498c-8e8e-0402-80af-87d1c8b6cb35.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/c8f18aed-0280-5539-2f2e-8db36cf3efa1.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/6f3f8d27-5897-ecec-e52a-7ae29bcc123f.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/14a2769a-080f-d828-abbd-f2da1ab5f882.htm" />
+        <HelpTOCNode Id="e174f640-7d44-4319-8dc0-bc998dd0e87e" Title="Update Method " Url="html/902af0a2-737f-772d-4d32-a998ab5a8164.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/fbfdc338-e9ec-93e5-893e-a3c28bee063f.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/f5b82a89-032e-6eec-d9eb-aa58fda95ffc.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet)" Url="html/0968343e-f1f5-3087-25b4-dda004792f23.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet.personnelDataTable)" Url="html/88e34e41-fe79-39df-37e8-30d2ed3c1529.htm" />
+          <HelpTOCNode Title="Update Method (Int32, String, String, String, String, Int32, Int32, String, String, String, String)" Url="html/45d7f45e-e739-a4dd-25f4-bc614d3f39f6.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="personnelTableAdapter Events" Url="html/fa220dc0-4e6d-92f5-dc61-49633b6f87a4.htm" />
+      <HelpTOCNode Id="2d12b05e-2569-4f59-a0b9-d01a0f42cce5" Title="personnelTableAdapter Fields" Url="html/9764a845-b483-a765-a77c-adcf90b5a461.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/a49581be-e9bc-669b-1e8c-526644d52cd4.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/d6825c6c-5bb8-71ec-9888-499839166364.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/fe572f7e-e782-4966-5c99-d44be152a4c1.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/1555bd0b-196a-1c79-bf49-b373186b1a31.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/480ee3b2-129c-c8bb-029a-3b7a1ef46003.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c07b2194-086c-49a2-a47b-5cc4ad3ca77e" Title="responsableTableAdapter Class" Url="html/f9816f49-0868-eb3c-48bd-d55779a7d448.htm">
+      <HelpTOCNode Title="responsableTableAdapter Constructor " Url="html/a98e1ef2-3259-1aa4-557f-cd84a640677e.htm" />
+      <HelpTOCNode Id="69a5ffe4-1a33-4f23-9900-c2808a3dddf5" Title="responsableTableAdapter Properties" Url="html/c81f715d-cbcb-d0e2-4296-bec19d920a5d.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/ddf9615f-dece-1865-5435-0ffa829b0596.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/4c7bd1be-7dc2-fbed-bc17-c80250e680cf.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/4a4f9b90-69a9-3d5c-c63c-7406f3a92c63.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/ef5ba9ef-6399-a601-f7c8-f51e9be0001e.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/98ac7a6b-ba22-4ea0-fb4b-c0bf1784ba32.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0102a0ea-c924-46e2-aed9-e7edc37c5ba8" Title="responsableTableAdapter Methods" Url="html/2a7f6405-a701-45fc-2439-077fea84c94e.htm">
+        <HelpTOCNode Title="Fill Method " Url="html/06483224-0eaf-e255-f775-c5ee83dd5ffb.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/4711857f-75ce-2bf0-fc43-32655bf158b9.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/f506b94a-4d66-b03b-fc41-15e9d2f21655.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/72db178e-47e7-5f9a-a11b-56e88656da92.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/eb3b0ddd-0dd5-4b2f-889f-7fbc50bf48ac.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/8f8569d8-449d-c42d-1d48-619daf99ede7.htm" />
+        <HelpTOCNode Id="db07dac2-ddeb-49ef-8fc4-b3a1d41246ca" Title="Update Method " Url="html/28facfcb-4d3b-0bd3-7838-a8739755396a.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/8d9124c1-af0d-4a7d-9c70-6915218f1f76.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/3b9b9c2d-4a49-2e47-1068-f56375b61e2f.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet)" Url="html/ae114a74-ce51-6eea-9a77-a8c321e21113.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet.responsableDataTable)" Url="html/648caa75-1b88-30f9-6436-a6789c81ce05.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="responsableTableAdapter Events" Url="html/acbcdaca-1f5c-849e-971a-2f2fbd81e799.htm" />
+      <HelpTOCNode Id="0863b24f-ae73-4ae9-bd47-71389dc29931" Title="responsableTableAdapter Fields" Url="html/bc138f76-0ae0-3d1d-0674-f0317d33a1db.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/54ccc97c-a8cd-0477-16e3-ba095edd5521.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/4b5ee7ba-d810-973c-8213-54cf487199f6.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/fe838cc3-bd9f-39d4-f550-4733a0f92971.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/1661a8aa-f013-26df-18c0-1e390a250034.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/371039c4-09dd-540c-e9a7-ad2d4a20e3d1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="64b942b2-0a98-4ff3-82dc-27291baeb827" Title="serviceTableAdapter Class" Url="html/46fb82b9-5760-a661-6664-2e581af44839.htm">
+      <HelpTOCNode Title="serviceTableAdapter Constructor " Url="html/ee2ba0ce-8ed5-5924-ad2e-7547271cf7c4.htm" />
+      <HelpTOCNode Id="6608a412-5b0c-46b5-9eb2-a1cbe7c08c49" Title="serviceTableAdapter Properties" Url="html/7c6d5cb4-3952-02ab-c8d7-19a4546b44c5.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/61ce5aa8-cbe4-7101-4dc8-1c20778b66f8.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/a92cc55e-87e1-867c-16cf-74c1a03c2f29.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/6f89472f-dc58-c95e-7bf7-be519f5e1130.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/1e3710ab-f924-d1a8-2ed3-0c42a177e45a.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/0de4dc57-8378-9f78-500b-809ed913c59f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="75d86bb7-7cfa-42a8-a6c2-bde5e78105e0" Title="serviceTableAdapter Methods" Url="html/04fa5987-85c2-e9c0-e5da-9c58924795b9.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/2e9efbee-55eb-cb37-5ebe-8bc1578b60da.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/951cc8ad-1414-74a6-555b-34c932e24e2f.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/bb35c0b2-a00a-3d76-c071-ac228175dcd0.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/2a5cdb7e-26c1-138a-4b6a-1ac9f59f7413.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/e548c439-a802-74f8-9a4d-ffb0cff0f898.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/45bbf4d7-bdb2-a27d-5ede-bcd5c34d7d3f.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/0ff69b46-e59d-1e7b-a5e4-32f3c32d32b6.htm" />
+        <HelpTOCNode Id="64965892-7900-4729-9022-0ce9b04f99f9" Title="Update Method " Url="html/703c12ce-34b5-8125-ee19-dd35c66a6044.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/caabddd5-1128-d2fa-c0ae-bbe3434aae3c.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/5541d4f7-932d-93e7-ea4a-57c4058a22e9.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet)" Url="html/c105800b-ab1e-8f8d-5713-1755cc8f47b4.htm" />
+          <HelpTOCNode Title="Update Method (projetcnedDataSet.serviceDataTable)" Url="html/fa89a4e6-5c91-41a5-3997-9a639dbcbc77.htm" />
+          <HelpTOCNode Title="Update Method (String, Int32, String)" Url="html/493ad2db-dcaa-0d70-1063-f3eee1f80311.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="serviceTableAdapter Events" Url="html/72b24e53-b068-7dee-ddbd-179d7bebd47a.htm" />
+      <HelpTOCNode Id="e108bdab-b27d-4c11-a227-fc11f82cb176" Title="serviceTableAdapter Fields" Url="html/8d4d9706-4467-546d-1d2c-13c3c1496cae.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/5932d4d5-e129-7d6c-3dce-c9fe8ac10be0.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/87e48053-4ecf-77ac-75bb-9bc797b8e9bb.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/bb894e6d-0b69-e461-8c27-9d354241cd06.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/3f1d53e3-a9f7-a0ab-4933-f22fb22aac0b.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/b14f444d-c93d-f13b-a702-72e6553ac04f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9881565a-5eda-451a-b7e0-0d8b60721526" Title="TableAdapterManager Class" Url="html/a3e35944-541e-7587-e895-b9ff4e1ea465.htm">
+      <HelpTOCNode Title="TableAdapterManager Constructor " Url="html/c1544810-ef48-0945-0fd9-b18ce65eea78.htm" />
+      <HelpTOCNode Id="8488cae3-c8b7-438e-9122-c486851b1d64" Title="TableAdapterManager Properties" Url="html/1ae78723-0cad-151d-69a7-76878640d0fe.htm">
+        <HelpTOCNode Title="absenceTableAdapter Property " Url="html/e035bfd8-7043-4625-dfa6-f3f8bf1d94b8.htm" />
+        <HelpTOCNode Title="BackupDataSetBeforeUpdate Property " Url="html/45a90107-9855-f6c6-b325-ece249bf079f.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/6b3bc8dd-4ba2-725c-3594-9e125efda7f9.htm" />
+        <HelpTOCNode Title="motifTableAdapter Property " Url="html/65451d5b-481f-08a9-c5a5-76ade1ed388e.htm" />
+        <HelpTOCNode Title="personnelTableAdapter Property " Url="html/d0595a45-44c2-d85a-8243-962adbc154f7.htm" />
+        <HelpTOCNode Title="responsableTableAdapter Property " Url="html/27cc3b97-002f-1e3c-337d-d8a11716abb6.htm" />
+        <HelpTOCNode Title="serviceTableAdapter Property " Url="html/936114de-781e-71af-ebcc-168b8fb2a753.htm" />
+        <HelpTOCNode Title="TableAdapterInstanceCount Property " Url="html/7a553f10-d01d-e2b3-50b7-634729b4b045.htm" />
+        <HelpTOCNode Title="UpdateOrder Property " Url="html/7b02b475-11d8-6649-bbde-e124965f471d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d5a97eac-a739-4b72-a94b-e1c03a5841d9" Title="TableAdapterManager Methods" Url="html/d3b21d12-35f8-dec8-1787-af4608157ea5.htm">
+        <HelpTOCNode Title="GetRealUpdatedRows Method " Url="html/da0fd4b7-152a-5ca8-ef6b-aaa3cc2d870a.htm" />
+        <HelpTOCNode Title="MatchTableAdapterConnection Method " Url="html/b026fbc6-28d9-637f-8be6-b63c9715e30b.htm" />
+        <HelpTOCNode Title="SortSelfReferenceRows Method " Url="html/79caef28-f769-bc27-3a19-806c7fc19a07.htm" />
+        <HelpTOCNode Title="UpdateAll Method " Url="html/c3bca991-8103-cb4b-422f-75c377d7fc0c.htm" />
+        <HelpTOCNode Title="UpdateDeletedRows Method " Url="html/7613b319-4ee2-0d6e-5565-3dbde4177d6c.htm" />
+        <HelpTOCNode Title="UpdateInsertedRows Method " Url="html/219cb350-02ab-a727-da0f-047a15c5d14b.htm" />
+        <HelpTOCNode Title="UpdateUpdatedRows Method " Url="html/6209e28f-53e9-ce7f-9ff0-4696df274d85.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TableAdapterManager Events" Url="html/06cee4cc-f8d3-5486-2aff-adb7eca62507.htm" />
+      <HelpTOCNode Id="f8bff3e1-0381-403f-9b67-cc8e45b248c6" Title="TableAdapterManager Fields" Url="html/586ca72a-8ad4-01c0-a451-569c5f10860b.htm">
+        <HelpTOCNode Title="_absenceTableAdapter Field" Url="html/9f3699dd-766c-7550-9824-5d88a388ba06.htm" />
+        <HelpTOCNode Title="_backupDataSetBeforeUpdate Field" Url="html/84606a99-102c-e694-1e6f-b45346987ac3.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/329e200c-b48a-e22e-4a70-53918f3928a7.htm" />
+        <HelpTOCNode Title="_motifTableAdapter Field" Url="html/fe69a759-1fa8-26d7-2478-611bc1a35be8.htm" />
+        <HelpTOCNode Title="_personnelTableAdapter Field" Url="html/dd59d957-c407-fa19-e627-14ce3e1eede4.htm" />
+        <HelpTOCNode Title="_responsableTableAdapter Field" Url="html/f9966f54-8305-f175-ad68-3604006dd3ee.htm" />
+        <HelpTOCNode Title="_serviceTableAdapter Field" Url="html/b70eaa0a-1152-aac7-5c4d-78033dbb7fb5.htm" />
+        <HelpTOCNode Title="_updateOrder Field" Url="html/40017a2e-4fb1-fee0-d1d8-98d6564620d6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="785065a7-a271-4096-bb1c-5c61cefc9bc0" Title="TableAdapterManager.SelfReferenceComparer Class" Url="html/d464bb48-d616-9a66-486f-389afe643c1e.htm">
+      <HelpTOCNode Title="TableAdapterManager.SelfReferenceComparer Constructor " Url="html/d42c467b-2741-b26d-f424-87242664d21d.htm" />
+      <HelpTOCNode Id="1daab0f6-699a-42c9-8f15-f5935b482616" Title="SelfReferenceComparer Methods" Url="html/1a312a78-229c-e644-a7dd-1152481f5023.htm">
+        <HelpTOCNode Title="Compare Method " Url="html/57d19b02-5181-f4f7-5771-5f1fd01e6bbd.htm" />
+        <HelpTOCNode Title="GetRoot Method " Url="html/5d574e5b-9836-8bdf-09a2-e685a15dfbc7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3ad95a7-1020-4388-a6dc-47a740a6046d" Title="SelfReferenceComparer Fields" Url="html/0607ca7d-41fb-b11f-5cc7-0e6f5e942592.htm">
+        <HelpTOCNode Title="_childFirst Field" Url="html/05996b16-325d-0c73-4d83-5e40fb0a7d08.htm" />
+        <HelpTOCNode Title="_relation Field" Url="html/cf211b57-ce15-0dad-51c1-1d649287301b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="TableAdapterManager.UpdateOrderOption Enumeration" Url="html/31e3c365-d3fa-aa10-3f42-98e47569df89.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="b302d0a0-f1d6-4107-9702-bb93d10afa46" Title="ProjetCned.vue" Url="html/d96ee7dc-b36c-3280-71ae-bcbe3d7e1c3d.htm">
+    <HelpTOCNode Id="7d015e16-9ce4-48bf-91cb-8d5a0dacf269" Title="FrmGestion Class" Url="html/8e8e019d-2b47-ac85-3cf4-76ea6e85a9ba.htm">
+      <HelpTOCNode Title="FrmGestion Constructor " Url="html/7a6d25e7-a00d-ad32-7651-7c2a0c9a1a66.htm" />
+      <HelpTOCNode Title="FrmGestion Properties" Url="html/0bdc7d60-3dc1-54e3-ede3-a2a3ac8f0ffd.htm" />
+      <HelpTOCNode Id="571f0c4a-019f-4995-aeef-bd4f9cd57c4e" Title="FrmGestion Methods" Url="html/2a58431b-f5f1-8bf7-43df-72582165cb7d.htm">
+        <HelpTOCNode Title="AfficherAbs Method " Url="html/1cac3ce8-8581-3bdf-69a8-7c68058bf607.htm" />
+        <HelpTOCNode Title="AfficherListePersonnel Method " Url="html/0156947c-dd9f-eba0-d108-d2369c12d030.htm" />
+        <HelpTOCNode Title="AfficherMotif Method " Url="html/b5ca875d-b1dd-7177-31d6-174e61f1f39e.htm" />
+        <HelpTOCNode Title="AfficherService Method " Url="html/6063d185-394f-1c2d-da7c-1272557a9633.htm" />
+        <HelpTOCNode Title="btnAjouterAbs_Click Method " Url="html/8ab7eea6-6236-0194-b616-1f3a4d632239.htm" />
+        <HelpTOCNode Title="btnAjouterPers_Click Method " Url="html/7bd5fd60-068e-5573-9476-b1e2be64e21c.htm" />
+        <HelpTOCNode Title="btnAnnulerAbs_Click Method " Url="html/7c8f96be-5973-5cb7-a1d8-05f9da4dc541.htm" />
+        <HelpTOCNode Title="btnAnnulerPers_Click Method " Url="html/dd3b5c72-b647-ed97-36d4-66a5c46f1e9b.htm" />
+        <HelpTOCNode Title="btnEnregistrerAbs_Click Method " Url="html/426b5cb1-d093-cccb-38b8-33298f9aa7f8.htm" />
+        <HelpTOCNode Title="btnEnregistrerPers_Click Method " Url="html/49660eec-94db-fb9c-0d30-56ca43d1c20f.htm" />
+        <HelpTOCNode Title="btnGestionAbs_Click Method " Url="html/763cc6a5-d71d-906c-47dd-dbed8d747394.htm" />
+        <HelpTOCNode Title="btnModifierAbs_Click Method " Url="html/d59ce919-d12b-b7b8-b7c9-ba16c28a33d8.htm" />
+        <HelpTOCNode Title="btnModifierPers_Click Method " Url="html/e9236176-27a0-a22e-1b43-ef252f45a6bf.htm" />
+        <HelpTOCNode Title="btnSupprAbs_Click Method " Url="html/1ef2161a-4c9e-a513-36cf-b4d1af01fd29.htm" />
+        <HelpTOCNode Title="btnSupprPers_Click Method " Url="html/f9e07ada-7f14-d2bf-970b-1c83af79075f.htm" />
+        <HelpTOCNode Id="2d38eaf7-4f64-48a2-9dfb-7d355b904065" Title="Dispose Method " Url="html/ade389fa-6017-71b5-1997-4538d543896e.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/107502e8-ab1d-8cea-70b2-09e8af78576a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Init Method " Url="html/ae984adb-085e-ffd3-f019-7b0c9194a32e.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/717217e0-eae2-fb3a-7cd2-3e7d0d64638c.htm" />
+        <HelpTOCNode Title="ViderAbs Method " Url="html/be8a1cd9-82b6-9954-fa0e-d3138370bd90.htm" />
+        <HelpTOCNode Title="ViderPers Method " Url="html/e038d7fc-7dff-b0ae-6118-0c5a1a0ff5e0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FrmGestion Events" Url="html/1f3a634d-d384-9cc6-0547-ec4aadbedf0a.htm" />
+      <HelpTOCNode Id="fb2bd95d-7016-4980-b3f8-d8abb42591a6" Title="FrmGestion Fields" Url="html/51370efa-9636-4b52-2302-7fb77dab63c3.htm">
+        <HelpTOCNode Title="bdgAbs Field" Url="html/2888914f-7051-eeeb-cbe7-99a735f7236d.htm" />
+        <HelpTOCNode Title="bdgMotif Field" Url="html/28fd5a11-068c-0c0f-bccb-75afc28ca2ff.htm" />
+        <HelpTOCNode Title="bdgPersonnel Field" Url="html/ccad16a7-9f7d-4f62-06d2-33efecccf952.htm" />
+        <HelpTOCNode Title="bdgService Field" Url="html/beb1ca3a-0355-d738-29e2-5798ee61b833.htm" />
+        <HelpTOCNode Title="btnAjouterAbs Field" Url="html/61af8937-fe07-7a46-bca2-03cf4ecffb07.htm" />
+        <HelpTOCNode Title="btnAjouterPers Field" Url="html/33c652be-bb94-fa55-cc3a-71120e59b1cb.htm" />
+        <HelpTOCNode Title="btnAnnulerAbs Field" Url="html/6b4ab803-b4f3-d77b-5674-c178ad7b0390.htm" />
+        <HelpTOCNode Title="btnAnnulerPers Field" Url="html/ccf40d0a-5020-6935-d23c-5b889d882b56.htm" />
+        <HelpTOCNode Title="btnEnregistrerAbs Field" Url="html/7b1304ed-0bc3-47c6-bb01-524e76597afe.htm" />
+        <HelpTOCNode Title="btnEnregistrerPers Field" Url="html/343b8258-d426-aa81-cab6-cca6d48e870b.htm" />
+        <HelpTOCNode Title="btnGestionAbs Field" Url="html/71995c55-b659-126e-ee0e-dd847e6537a5.htm" />
+        <HelpTOCNode Title="btnModifierAbs Field" Url="html/033f1f34-a2e5-8fc2-92e3-4cfd0794b862.htm" />
+        <HelpTOCNode Title="btnModifierPers Field" Url="html/4cb193d3-f566-3a02-5427-cb2eee940769.htm" />
+        <HelpTOCNode Title="btnSupprAbs Field" Url="html/a9704a5d-ddf3-c36e-4c04-1d243be15690.htm" />
+        <HelpTOCNode Title="btnSupprPers Field" Url="html/42323e11-abfc-8184-fa75-54c18416d75e.htm" />
+        <HelpTOCNode Title="cobMotif Field" Url="html/4a9f13d2-8666-9bd3-351b-d1b11beeb1cd.htm" />
+        <HelpTOCNode Title="cobservice Field" Url="html/e4960fc2-f14a-d921-1926-29946a33b480.htm" />
+        <HelpTOCNode Title="components Field" Url="html/479a1e42-951b-4c8c-b5e7-5337bf5b99cf.htm" />
+        <HelpTOCNode Title="controle Field" Url="html/2065bbbb-65dd-9ec7-67e0-ccf91a4cd63d.htm" />
+        <HelpTOCNode Title="dataAbsence Field" Url="html/047f2706-cf1f-d7c5-371f-ae3f78514e68.htm" />
+        <HelpTOCNode Title="dataPersonnel Field" Url="html/9909c0f1-755b-c256-5a63-f70f2fd5d9c4.htm" />
+        <HelpTOCNode Title="dateDebut Field" Url="html/bb1d5d3f-8535-a6c1-1886-cf6043c8632a.htm" />
+        <HelpTOCNode Title="dateFin Field" Url="html/90d8a78c-9405-88e4-5cf2-59cc9ef4ea9b.htm" />
+        <HelpTOCNode Title="grpabsence Field" Url="html/0a76ad92-502a-2603-2748-37b068fb7a7a.htm" />
+        <HelpTOCNode Title="grpGestionAbs Field" Url="html/86408e29-8737-51bf-2bda-4923f157d673.htm" />
+        <HelpTOCNode Title="grpGestionPers Field" Url="html/a04f7c50-1e83-b791-49c9-cff7c2cb7001.htm" />
+        <HelpTOCNode Title="grpListePersonnel Field" Url="html/00dbfadb-e714-54c7-4c5d-ae35210ad0c0.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/2d3d2c2e-7b5c-43f2-03a7-aebc6a0c3cdb.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/bb5c7e56-2acc-6cec-2a30-6447689fe87e.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/fd70aa40-7bf1-4fdf-1265-fcd2e42d4457.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/da79d431-601d-90b1-0d8b-dab41455c51c.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/3eecee8e-b3ed-273f-f0ed-dc58ed8b7af2.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/2dfb71ca-7f61-ba45-e361-a69aaaa2c9e7.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/28df3eb3-a631-aaa2-ecfb-17d5f7625c75.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/0476b262-eb6a-191b-88e2-aad50053ba92.htm" />
+        <HelpTOCNode Title="ModifAbs Field" Url="html/4f4618de-6456-2b3e-bb81-2ba836dcb066.htm" />
+        <HelpTOCNode Title="ModifPers Field" Url="html/2ca542a9-84ac-b396-6210-6c636a322322.htm" />
+        <HelpTOCNode Title="projetcnedDataSet Field" Url="html/85f570af-3371-1c40-164a-d292cc937dac.htm" />
+        <HelpTOCNode Title="projetcnedDataSetBindingSource Field" Url="html/67b6ffc4-9293-b10c-f4b9-344277cc6f90.htm" />
+        <HelpTOCNode Title="txtmail Field" Url="html/52aacff8-4c26-1086-a154-82b39c2a5762.htm" />
+        <HelpTOCNode Title="txtnom Field" Url="html/6b6a5c2d-cb04-eee2-c00d-c77299bbbbf6.htm" />
+        <HelpTOCNode Title="txtprenom Field" Url="html/c198109e-7d98-102d-0d8a-2ddd48cce10c.htm" />
+        <HelpTOCNode Title="txttel Field" Url="html/798e1a16-28f2-18f4-31f0-910bc28086c5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
