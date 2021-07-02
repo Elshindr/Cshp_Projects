@@ -1,0 +1,136 @@
+using(WebClient client = new WebClient()) {
+
+    NameValueCollection vals = new NameValueCollection();
+    vals.Add("test", "test string");
+    client.UploadValues("http://www.someurl.com/page.php", vals);
+}
+
+
+our browser sends a bunch of headers. Sniff the HTTP request that your browser sends using Fiddler or Firebug. Then replicate these headers by using the client.Headers property
+
+/////
+private static readonly HttpClient client = new HttpClient();
+
+Then implement the method.
+
+private async Task<string> PostHTTPRequestAsync(string url, Dictionary<string, string> data)
+{
+    using (HttpContent formContent = new FormUrlEncodedContent(data))
+    {
+        using (HttpResponseMessage response = await client.PostAsync(url, formContent).ConfigureAwait(false))
+        {
+            response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+        }
+    }
+}
+
+Or C# 8.0
+
+private async Task<string> PostHTTPRequestAsync(string url, Dictionary<string, string> data)
+{
+    using HttpContent formContent = new FormUrlEncodedContent(data);
+    using HttpResponseMessage response = await client.PostAsync(url, formContent).ConfigureAwait(false);
+    response.EnsureSuccessStatusCode();
+    return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+}
+
+Looks easier than your code, right?
+
+Caller async method will look like
+
+private async Task MyMethodAsync()
+{
+    Dictionary<string, string> postData = new Dictionary<string, string>();
+    postData.Add("message", "Hello World!");
+    try
+    {
+        string result = await PostHTTPRequestAsync("http://example.org", postData);
+        Console.WriteLine(result);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+}
+////////////////////////////////////////////////
+
+var request = (HttpWebRequest)WebRequest.Create("http://www.example.com/recepticle.aspx");
+
+var postData = "thing1=hello";
+    postData += "&thing2=world";
+var data = Encoding.ASCII.GetBytes(postData);
+
+request.Method = "POST";
+request.ContentType = "application/x-www-form-urlencoded";
+request.ContentLength = data.Length;
+
+using (var stream = request.GetRequestStream())
+{
+    stream.Write(data, 0, data.Length);
+}
+
+var response = (HttpWebResponse)request.GetResponse();
+
+var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+
+
+///// errerur encodage
+StringBuilder postData = new StringBuilder();
+postData.AppendUrlEncoded("username", uname);
+postData.AppendUrlEncoded("password", pword);
+postData.AppendUrlEncoded("url_success", urlSuccess);
+postData.AppendUrlEncoded("url_failed", urlFailed);
+
+//in an extension class
+public static void AppendUrlEncoded(this StringBuilder sb, string name, string value)
+{
+    if (sb.Length != 0)
+        sb.Append("&");
+    sb.Append(HttpUtility.UrlEncode(name));
+    sb.Append("=");
+    sb.Append(HttpUtility.UrlEncode(value));
+}
+
+
+/// call methode
+private async Task MyMethodAsync()
+{
+    Dictionary<string, string> postData = new Dictionary<string, string>();
+    postData.Add("message", "Hello World!");
+    try
+    {
+        string result = await PostHTTPRequestAsync("http://example.org", postData);
+        Console.WriteLine(result);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+}
+
+/////
+As shown in the link provided in my comment above, if you are using a WebRequest and not a WebClient, probably the thing to do is build up a string of key-value pairs separated by &, with the values url encoded:
+
+  foreach(KeyValuePair<string, string> pair in items)
+  {      
+    StringBuilder postData = new StringBuilder();
+    if (postData .Length!=0)
+    {
+       postData .Append("&");
+    }
+    postData .Append(pair.Key);
+    postData .Append("=");
+    postData .Append(System.Web.HttpUtility.UrlEncode(pair.Value));
+  }
+
+And when you send the request, use this string to set the ContentLength and send it to the RequestStream:
+
+request.ContentLength = postData.Length;
+using(Stream writeStream = request.GetRequestStream())
+{
+    UTF8Encoding encoding = new UTF8Encoding();
+    byte[] bytes = encoding.GetBytes(postData);
+    writeStream.Write(bytes, 0, bytes.Length);
+}
